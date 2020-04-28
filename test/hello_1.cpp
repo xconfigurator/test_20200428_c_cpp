@@ -13,7 +13,7 @@ using namespace std;
 */
 int main(int argc, char const *argv[])
 {
-  cout << "hello, world" << endl;
+  cout << "hello, world from openSUSE 15.1" << endl;
   int a = 0;
   // std::system("pause");
   return 0;
