@@ -1,6 +1,18 @@
 # 说明
 练习 C++ 题目的测试场
 
+# 环境
+1. 创建launch.json
+   按debug按钮，按照提示创建launch.json
+2. 创建tasks.json （配置g++ 参数）
+   方法1 源码文件上按F5,按照提示创建tasks.json
+   方法2 shift + ctrl + p -> Tasks:Configure Task -> C/C++ g++.exe build active file
+
+# 编译运行
+F5
+具体使用快捷键参见/test/hello_*.cpp的注释。
+
+
 # 00 算法
 《算法竞赛入门经典（第2版）》
 《算法基础与在线实践》
