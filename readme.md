@@ -4,6 +4,7 @@
 # 环境
 1. 创建launch.json
    按debug按钮，按照提示创建launch.json
+   // 2020/10/20新版本的vscode，只要配置好g++的path，点一下那个创建launch.json之后，
 2. 创建tasks.json （配置g++ 参数）
    方法1 源码文件上按F5,按照提示创建tasks.json
    方法2 shift + ctrl + p -> Tasks:Configure Task -> C/C++ g++.exe build active file
@@ -11,6 +12,10 @@
 # 编译运行
 F5
 具体使用快捷键参见/test/hello_*.cpp的注释。
+
+# 备注
+mingw64工具链不好下载，可以直接安装CodeBlocks，使用里面带的那一套。
+http://www.codeblocks.org/
 
 
 # 00 算法
