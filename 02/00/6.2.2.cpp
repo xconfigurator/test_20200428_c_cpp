@@ -34,7 +34,7 @@ g++ 6.2.2.cpp -o 6.2.2.exe
 运行(powershell)：
 cat 6.2.2.data | ./6.2.2.exe
 
-@author: liuyang
+@author: liuyang copy from guowei
 @since: 2020/05/31
 */
 #include <cmath>

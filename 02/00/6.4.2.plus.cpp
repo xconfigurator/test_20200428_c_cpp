@@ -3,8 +3,12 @@
 https://www.bilibili.com/video/BV1ob411q7vb?p=30
 大概19分钟左右讲解
 
+说明：
 在构造函数和析构函数中调用虚函数，不是多态。编译时即可确定，调用的函数是自己的类或基类中定义的函数，
   不会等到运行时才决定调用自己还是派生类的函数。
+
+@author liyang copy form guowei
+@since 2020/12/14
 */
 
 #include <iostream>
