@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// 注意整除
+// 9 / 5 == 1
 int main() {
     char a = 'a', b = 'j';
     float x;
