@@ -24,7 +24,8 @@ int binarySearch(vector<int> a, int size, int p) {
 	int mid = 0;
 	int idx = -1;
 	while (l <= r) {//注意：是<=
-		mid = (l + r) / 2;// 核心！
+		// mid = (l + r) / 2;// 核心！
+		mid = l + (r -l) / 2; // 核心！ 这种写法更好
 		if (a[mid] == p) {
 			idx = mid;
 			break;

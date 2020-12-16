@@ -6,31 +6,40 @@
     枚举算法（保留中间值）zju.1.2.cpp
     分治 zju.1.3.cpp
     在线处理 zju.1.4.cpp
+多看一下链表逆置
+
+## 表达式求值小综合
+后缀表达是求值 EvaluatePostfixExpression.cpp  
+- 前缀表达式求值 EvaluatePrefixExpression.cpp  
+中缀表达式求值 
+1. 不变成后缀表达式而直接处理：EvaluateInfixExpression.pku.cpp  
+2. 变成后缀表达式然后再处理：EvaluateInfixExpression.zju.cpp
 
 ## 模拟
-- 约瑟夫问题
+- 约瑟夫问题 Josephus.cpp  
 
 ## 蒙特卡罗法 
-- 蒙特卡罗法算PI
+- 蒙特卡罗法算PI MonteCarloMethod.cpp  
 
 ## 二分
-- 二分查找  
-二分法解方程 pku.5.2.cpp
+- 二分查找 BinarySearch.cpp  
+- 二分法解方程 BinarySearchRoot.pku.5.2.cpp
 
 ## 递归
-阶乘  
-- 汉诺塔  
-- N皇后
-逆波兰表达式
+- 阶乘 Factorial.cpp  
+- 汉诺塔 Hanoi.cpp Hanoi.nonrecursive.cpp  
+- N皇后 NQueen.cpp (递归应用：替代多重循环)  
+- 逆波兰表达式 EvaluatePrefixExpression.cpp
+- 表达式求值 EvaluateInfixExpression.pku.cpp
 
 ## 贪心
-圣诞老人的礼物（北大）pku.6.2.cpp
-- Graph::Dijkstra
-- Graph::Prim
-- Graph::Kruskal
+- 圣诞老人的礼物（北大）pku.6.2.cpp
+- Graph::Dijkstra 视频
+- Graph::Prim 视频
+- Graph::Kruskal 视频
 
 ## 动态规划
-- Graph::Floyd
+- Graph::Floyd 视频
 
 
 # ###########################################################################

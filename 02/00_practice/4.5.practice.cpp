@@ -1,4 +1,11 @@
-// 练！
+/*
+p72
+长度可变的整形数组类
+
+说明：
+编程练习好实例，多练！
+ */
+
 #include <iostream>
 using namespace std;
 
