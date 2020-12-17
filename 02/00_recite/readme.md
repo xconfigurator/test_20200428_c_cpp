@@ -9,11 +9,16 @@
 多看一下链表逆置
 
 ## 表达式求值小综合
-后缀表达是求值 EvaluatePostfixExpression.cpp  
++ 后缀表达是求值 （看浙大视频）  
 - 前缀表达式求值 EvaluatePrefixExpression.cpp  
-中缀表达式求值 
-1. 不变成后缀表达式而直接处理：EvaluateInfixExpression.pku.cpp  
-2. 变成后缀表达式然后再处理：EvaluateInfixExpression.zju.cpp
+- 中缀表达式求值 
+1. 不变成后缀表达式而直接处理：  
+EvaluateInfixExpression.pku.cpp  
+2. 变成后缀表达式然后再处理（看浙大视频）
+
+## 图
+DFS 寻路问题 DFSSearchPath.cpp https://www.bilibili.com/video/BV1Zb411q7iY?p=39   
++ BFS 八数码问题（看北大视频） https://www.bilibili.com/video/BV1Zb411q7iY?p=44
 
 ## 模拟
 - 约瑟夫问题 Josephus.cpp  
