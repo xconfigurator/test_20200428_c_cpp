@@ -17,7 +17,7 @@ EvaluateInfixExpression.pku.cpp
 2. 变成后缀表达式然后再处理（看浙大视频）
 
 ## 图
-DFS 寻路问题 DFSSearchPath.cpp https://www.bilibili.com/video/BV1Zb411q7iY?p=39   
+- DFS 寻路问题 DFSSearchPath.cpp https://www.bilibili.com/video/BV1Zb411q7iY?p=39   
 + BFS 八数码问题（看北大视频） https://www.bilibili.com/video/BV1Zb411q7iY?p=44
 
 ## 模拟
