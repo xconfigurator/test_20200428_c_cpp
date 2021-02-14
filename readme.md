@@ -18,7 +18,7 @@ mingw64工具链不好下载，可以直接安装CodeBlocks，使用里面带的
 http://www.codeblocks.org/
 
 
-# 00 算法
+# 00 算法和背诵程序
 反复练习的测试场
 00_practice/
 
@@ -31,6 +31,7 @@ http://www.codeblocks.org/
 《妙趣横生的算法C语言版》
 02/
 
+// TODO
 《算法竞赛入门经典（第2版）》
 《程序设计基础》
 LeetCode
@@ -41,6 +42,7 @@ stl/ 《算法竞赛入门经典（第2版）》中的STL示例
 《数据结构（第2版）》 浙江大学 陈越
 《数据结构（C++语言版）》 清华大学 邓俊辉
 xdf/新东方考研 数据结构 刷题
+
 
 # 02 C++
 《新标准C++程序设计》 北京大学 郭炜
@@ -58,29 +60,28 @@ xdf/新东方考研 数据结构 刷题
 《C++程序设计教程（第二版） 习题及解答》 钱能 （87道例题）
 03/ readme_0203.md 详细说明及目录
 
+
+# 03 C
 // TODO
 《妙趣横生的算法C语言版》 （编程基本功）（20题）
-04/ readme_0204.md 详细说明及目录
+01/ readme_0301.md 详细说明及目录
 
-
-# 03 C @Obsolete
+@Obsolete
 《C程序设计题解汇编》
 关于中文名：测试发现如果文件夹带中文则无法启动调试，但仍可以编译成功。故取消文件夹的中文名。
 
 
-# 04 
+# leetcode
+LeetCode
 
 
-
-# 05 
-
-
-
-# 06 
+# luogu
+洛谷
 
 
-
-# 07 LeetCode
+# pat_basic_level
+PAT 乙类题目  
+[题目列表](https://pintia.cn/problem-sets/994805260223102976/problems/type/7)
 
 
 # test
