@@ -4,7 +4,7 @@
 # 环境
 1. 创建launch.json
    按debug按钮，按照提示创建launch.json
-   // 2020/10/20新版本的vscode，只要配置好g++的path，点一下那个创建launch.json之后，
+   2020/10/20新版本的vscode，只要配置好g++的path，点一下那个创建launch.json之后，
 2. 创建tasks.json （配置g++ 参数）
    方法1 源码文件上按F5,按照提示创建tasks.json
    方法2 shift + ctrl + p -> Tasks:Configure Task -> C/C++ g++.exe build active file
@@ -25,23 +25,31 @@ http://www.codeblocks.org/
 挑选出来的背诵程序
 00_recite/
 
+// TODO
+天勤复制上机指导
+00_secondary
+
+
+// TODO
 《算法基础与在线实践》
 01/
 
+// TODO
 《妙趣横生的算法C语言版》
 02/
 
-// TODO
+
+
+@Queue
 《算法竞赛入门经典（第2版）》
 《程序设计基础》
-LeetCode
-stl/ 《算法竞赛入门经典（第2版）》中的STL示例
 
 
 # 01 DataStructure
-《数据结构（第2版）》 浙江大学 陈越
-《数据结构（C++语言版）》 清华大学 邓俊辉
-xdf/新东方考研 数据结构 刷题
+01_zju/        《数据结构（第2版）》 浙江大学 陈越
+xdf/        新东方考研 数据结构 刷题
+02_tsinghua/   《数据结构（C++语言版）》 清华大学 邓俊辉
+
 
 
 # 02 C++
@@ -52,18 +60,15 @@ xdf/新东方考研 数据结构 刷题
 三套清华期末C++考试题
 01/ readme_0201.md 详细说明及目录
 
-// TODO
+// TODO （全部）
 《C++程序设计习题及解答》 钱能 （67道例题）
 02/ readme_0202.md 详细说明及目录
 
-// TODO
+@Queue
 《C++程序设计教程（第二版） 习题及解答》 钱能 （87道例题）
-03/ readme_0203.md 详细说明及目录
-
 
 # 03 C
-// TODO
-《妙趣横生的算法C语言版》 （编程基本功）（20题）
+《妙趣横生的算法C语言版》 （编程基本功）（20题）（已选 18道）
 01/ readme_0301.md 详细说明及目录
 
 @Obsolete
@@ -83,6 +88,13 @@ LeetCode
 PAT 乙类题目  
 [题目列表](https://pintia.cn/problem-sets/994805260223102976/problems/type/7)
 
+# stl
+常用stl使用场景
+00_stl_demo
+
+// TODO
+《算法竞赛入门经典（第2版）》中的STL示例
+01
 
 # test
 纯测试用

@@ -6,6 +6,8 @@
 说明：
 很诡异。scanf不成。getchar版本必须是enter -> ctrl + z -> enter后才可以结束。
 g++和cl都是一样的效果。
+
+@since 2021/2/15
 */
 #define _CRT_SECURE_NO_WARNINGS
 #include <string.h>
