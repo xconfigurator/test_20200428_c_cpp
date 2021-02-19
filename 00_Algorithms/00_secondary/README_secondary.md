@@ -8,9 +8,29 @@
 ### 模拟
 101. 
 [害死人不偿命的（3n+1）猜想](https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528)
-10101.cpp
+pat_basic_level/1001.cpp
+
+[挖掘机技术哪家强](https://pintia.cn/problem-sets/994805260223102976/problems/994805289432236032)
+pat_basic_level/1032.cpp
+
+[找x]() <--重要！！
+codeup/1934.cpp
+codeup 1934 找x 08:40
+
+
+[跟奥巴马一起学编程](https://pintia.cn/problem-sets/994805260223102976/problems/994805285812551680)
+pat_basic_level/1036.cpp
+
+[日期插值]() <--重要！！
+codeup/1928.cpp
+codeup 1928 日期插值 15:22
 
 102. 
+[D进制的A+B](https://pintia.cn/problem-sets/994805260223102976/problems/994805299301433344)
+pat_basic_level/1022.cpp
+
+[说反话](https://pintia.cn/problem-sets/994805260223102976/problems/994805314941992960)
+pat_basic_level/1009.cpp
 
 
 ### 算法初步
