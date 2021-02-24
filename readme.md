@@ -25,7 +25,6 @@ http://www.codeblocks.org/
 挑选出来的背诵程序
 00_recite/
 
-// TODO
 天勤复制上机指导
 00_secondary
 
@@ -39,13 +38,11 @@ http://www.codeblocks.org/
 02/
 
 
-
 @Queue
 《算法竞赛入门经典（第2版）》
 《程序设计基础》
 
 
-@Queue
 # 01 DataStructure
 - 01_zju/        《数据结构（第2版）》 浙江大学 陈越
 - xdf/        新东方考研 数据结构 刷题

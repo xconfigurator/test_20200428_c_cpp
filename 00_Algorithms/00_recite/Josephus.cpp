@@ -4,7 +4,13 @@
 @author liuyang
 编译环境：Qt Creator + MinGW 5.3.0 32bit for C++
 
+参考视频：
+https://www.bilibili.com/video/BV1Yt41197sM?p=83
 
+练习
+马士兵的
+Count3Quit.java     // 数组版本
+Count3Quit2.java    // 双向循环链表版本
 */
 #include <iostream>
 #include <deque>
