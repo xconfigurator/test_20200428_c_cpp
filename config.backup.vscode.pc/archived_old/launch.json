@@ -1,0 +1,39 @@
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "g++.exe build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      // liuyang 202003231825 modified begin
+      // 样式1：插件默认的配置（不打开新窗口，输出很多编译信息）
+      // "externalConsole": false,
+      // 样式2：像Visual Studio 默认那样启动一个新出的窗口。注意配合system("pause");
+      // "externalConsole": true,
+      // 样式3：不打开新窗口，精简输出编译信息。
+      // "externalConsole": false, 
+      // "internalConsoleOptions": "neverOpen",
+      "externalConsole": false,
+      "internalConsoleOptions": "neverOpen",
+      // liuyang 202003231825 modified end
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "为 gdb 启用整齐打印",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "g++.exe build active file"
+    }
+  ]
+}
