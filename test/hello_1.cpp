@@ -14,6 +14,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
   cout << "hello, world from openSUSE 15.1 and ThinkPad X1 Tablet" << endl;
+  cout << "hello, world from openSUSE 15.1 and ThinkPad X13" << endl;
   int a = 0;
   // std::system("pause");
   return 0;
