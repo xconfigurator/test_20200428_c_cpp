@@ -1,5 +1,7 @@
 /*
 最小堆例程
+https://en.cppreference.com/w/cpp/container/priority_queue
+
 @since 2017/12/8
 @author liuyang
 编译环境：Visual Studio 2017 Community/ Qt Creator
