@@ -1,7 +1,8 @@
 # 说明
 练习 C++ 题目的测试场
 
-
+# 环境(update 2021/11/1)
+>基本步骤从 update 2021/3/28。但VSCode升级后配置文件需要重新生成一下。
 # 环境（update 2021/3/28）
 1. 安装CodeBlocks, 主要需要其中的MinGW
 2. 配置MinGW_HOME, 将%MinGW_HOME%\bin添加到Path

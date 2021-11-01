@@ -11,9 +11,10 @@
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
+            "internalConsoleOptions": "neverOpen",
             "MIMode": "gdb",
             "miDebuggerPath": "C:\\CodeBlocks\\MinGW\\bin\\gdb.exe",
             "setupCommands": [
