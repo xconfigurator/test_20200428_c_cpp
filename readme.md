@@ -33,8 +33,8 @@ http://www.codeblocks.org/
 挑选出来的背诵程序
 00_recite/
 
-天勤复制上机指导
-00_secondary
+天勤复试上机指导
+00_tq
 
 
 // TODO
@@ -80,6 +80,13 @@ http://www.codeblocks.org/
 02/README_0204.md
 选。
 
+# 02_C++_STL
+常用stl使用场景
+00_stl_demo
+
+// TODO
+《算法竞赛入门经典（第2版）》中的STL示例
+01
 
 # 03 C
 《妙趣横生的算法C语言版》 （编程基本功）（20题）（已选 18道）
@@ -90,25 +97,19 @@ http://www.codeblocks.org/
 关于中文名：测试发现如果文件夹带中文则无法启动调试，但仍可以编译成功。故取消文件夹的中文名。
 
 
-# leetcode
+# oj_leetcode_70
 LeetCode
+[LeetCode 入门70题](https://www.bilibili.com/video/av800400699)
+// TODO 
 
-
-# luogu
+# oj_luogu
 洛谷
 
 
-# pat_basic_level
+# oj_pat_basic_level
 PAT 乙类题目  
 [题目列表](https://pintia.cn/problem-sets/994805260223102976/problems/type/7)
 
-# stl
-常用stl使用场景
-00_stl_demo
-
-// TODO
-《算法竞赛入门经典（第2版）》中的STL示例
-01
 
 # test
 纯测试用
