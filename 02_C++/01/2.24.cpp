@@ -16,7 +16,7 @@ public:
   }
   virtual ~D() {
     delete[] buf;
-    cout << "D::D() destruction." << endl;
+    cout << "D::~D() destruction." << endl;
   }
 
 private:

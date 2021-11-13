@@ -3,6 +3,7 @@ using namespace std;
 
 // 注意！
 // D::virfun() called
+// 注：C++中是通过虚函数的覆盖，实现多态的功能。
 
 class B {
 public:
