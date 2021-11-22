@@ -1,5 +1,5 @@
 /*
-全排列
+全排列 (递归实现)
 @since 2021/11/20
 @author liuyang
 
