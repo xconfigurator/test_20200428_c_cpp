@@ -86,9 +86,12 @@ int unionVertices(int x, int y, int parent[], int rank[], int length) {
         // 不过博士的这个方法比何老师的方法还是略差逊一筹。（增加了一个rank数组，而何版本不需要增加那这个rank数组）
         if (rank[xRoot] > rank[yRoot]) {
             parent[yRoot] = xRoot;
-        } else {
+        } else if (rank[xRoot] < rank[yRoot]) {
             parent[xRoot] = yRoot;
-        }
+        } else {// 注意：这一层并不多余
+            parent[xRoot] = yRoot;
+            rank[yRoot] ++;
+        }   
         return 1;     
     }
 }
@@ -105,9 +108,10 @@ int main(int argc, char const *argv[]) {
     //printArr(parent, VERTICES);
     // 2. 边(注意这个6不是VERTICES)
     int edges[EDGES][2] = { {0, 1}, {1, 2}, {1, 3}
-                            , {2, 4} // 注掉之后需要同时修改EDGES为5
+                            //, {2, 4} // 注掉之后需要同时修改EDGES为5
                             , {3, 4} // 注掉之后需要同时修改EDGES为5
                             , {2, 5}
+                            , {5, 4}
                             };
                             
     // 检测是否有环
@@ -117,10 +121,11 @@ int main(int argc, char const *argv[]) {
         if (unionVertices(x, y, parent, rank, VERTICES) == 0) {
             cout << "有环 Cycle detected" << endl;
             cout << "x = " << x << ", y = " << y << endl;
+            printArr(rank, VERTICES);// ?? rank 到底有没有起作用，并不清楚。
             return 0;
         }
     }
     cout << "无环 No cycles found." << endl;
-
+    printArr(rank, VERTICES);// ?? rank 到底有没有起作用，并不清楚。
     return 0;
 }
