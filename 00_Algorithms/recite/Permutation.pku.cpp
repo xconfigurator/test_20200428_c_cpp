@@ -1,8 +1,10 @@
 /**
  * @file Permutation.pku.cpp
  * @author liuyang
- * @brief 全排列 （递归） 《程序设计导引及在线实践（第2版)》 P168 递归实现
- * 
+ * @brief 全排列 （递归） 
+ * 参考1. 《程序设计导引及在线实践（第2版)》 P168 递归实现
+ * 参考2. 参考视频：全排列 信息学奥赛 1199 讲的是同一道题 （5分钟的视频介绍 非常好！）
+ * https://www.bilibili.com/video/BV1Fy4y1i7D5?from=search&seid=8089310972890213058
  * @version 0.1
  * @date 2021/2/19
  * 
@@ -34,7 +36,7 @@ void permutation(int n) {
             result[n] = s[i];       // 第n个位置放第i哥字母
             used[i] = 1;
             permutation(n + 1);
-            used[i] = 0;            // 取消第n哥位置的摆法，以便下次尝试另一种摆法
+            used[i] = 0;            // 取消第n个位置的摆法，以便下次尝试另一种摆法
         }
 
     }
