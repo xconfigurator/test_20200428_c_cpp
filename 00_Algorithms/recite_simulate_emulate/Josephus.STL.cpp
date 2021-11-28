@@ -15,8 +15,8 @@ Count3Quit2.java    // 双向循环链表版本
 #include <iostream>
 #include <deque>
 using namespace std;
-#define N 9				// 一共有多少人
-#define M 5				// 报数
+#define N 6				// 一共有多少人
+#define M 2				// 报数
 #define S 0				// 从第几个人开始报数  （循环链表版本没有实现这个）
 
 
