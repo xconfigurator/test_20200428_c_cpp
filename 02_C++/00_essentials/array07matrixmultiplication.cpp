@@ -48,9 +48,9 @@ int main(int argc, char const *argv[]) {
             cin >> matrixB[i][j];
         }
     }
-    // 矩阵乘法 输出矩阵是m行p列
+    // 矩阵乘法 输出矩阵是m行q列
     for (int i = 0; i < m; i++) {
-        for (int j = 0; j < p; j++) {
+        for (int j = 0; j < q; j++) {
            matrixC[i][j] = 0;
            for (int k = 0; k < n; k++) {
                matrixC[i][j] += matrixA[i][k] * matrixB[k][j];
