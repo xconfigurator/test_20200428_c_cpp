@@ -1,4 +1,4 @@
-# 复试上机题
+# 复试上机题 @Deprecated 更新参见根目录下的README.catalog.tianqin.md
 [视频参考 天勤](https://www.bilibili.com/video/BV1Ty4y1n7JH?p=5&spm_id_from=pageDriver)
 
 ### 环境
