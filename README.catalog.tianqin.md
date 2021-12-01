@@ -2,7 +2,7 @@
 ## 00. 战前准备
 - IDE
 - OJ的输入输出
->位置：templates/oj_io_*
+>位置：templates/oj_io_* 这些都已经在Visual Studio 2022 Community中验证通过。
 
 ## 01. 模拟
 >不需要复杂的算法，解题的方法已经在题目描述中告知了。  

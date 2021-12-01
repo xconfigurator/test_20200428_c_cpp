@@ -13,11 +13,11 @@ cout << ch;
 
 输入样例：abc d   e
 输出样例：
-6:97
-7:98
-8:99
-9:100
-10:101
+1:97 
+2:98 
+3:99 
+4:100
+5:101
 */
 #include <iostream>
 using namespace std;
