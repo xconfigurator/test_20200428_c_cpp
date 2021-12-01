@@ -89,8 +89,12 @@ pat_basic_level/1013.cpp
 TODO pat_advanced_level/1051.cpp
 
 402. 队列
-TODO pat_advanced_level/1056.cpp
-
+- 队列的测试代码  
+    02_C++_STL/quque02.cpp
+- Mice and Rice (04:07)  
+    04_OJ/oj_pat_advanced_level/1056.cpp
+    // TODO
+    
 403. 链表
 TODO pat_advanced_level/1032.cpp
 
