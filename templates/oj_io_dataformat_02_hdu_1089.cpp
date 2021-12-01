@@ -1,9 +1,9 @@
-﻿// oj_io_dataformat_01.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// oj_io_dataformat_02_hdu_1089.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 /*
-输入格式：一个case输入
-输出格式：一个输出结果
+输入格式：有多个case输入，直到文件结束;
+输出格式：一行一个结果。
 
-实例：洛谷A + B
+实例：杭电1089
 */
 
 #include <iostream>
@@ -11,8 +11,10 @@ using namespace std;
 
 int main() {
     int a, b;
-    cin >> a >> b;
-    cout << a + b << endl;
+    ios::sync_with_stdio(false);// 加速cin/cout
+    while (cin >> a >> b) {
+        cout << a + b << endl;
+    }
     return 0;
 }
 

@@ -1,18 +1,30 @@
-﻿// oj_io_dataformat_01.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// oj_io_dataformat_06_hdu_1096.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 /*
-输入格式：一个case输入
-输出格式：一个输出结果
+输入格式：一开始输入总case数，每组case一开始有控制该组输入个数；
+输出格式：一行一个结果，两个结果之间有一个回车(一个空行)，注意最有一个case没有空行。
 
-实例：洛谷A + B
+实例：杭电1096 (与1090输入类似)
 */
 
 #include <iostream>
 using namespace std;
 
 int main() {
-    int a, b;
-    cin >> a >> b;
-    cout << a + b << endl;
+    int casenum, n, sum;
+    cin >> casenum;
+    while (casenum--) {
+        int x;
+        sum = 0;
+        cin >> n;
+        while (n--) {
+            cin >> x;
+            sum += x;
+        }
+        cout << sum << endl;
+        if (casenum != 0) {
+            cout << endl;
+        }
+    }
     return 0;
 }
 

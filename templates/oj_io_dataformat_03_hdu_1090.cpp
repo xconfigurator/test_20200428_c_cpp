@@ -1,18 +1,22 @@
-﻿// oj_io_dataformat_01.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// oj_io_dataformat_03_hdu_1090.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 /*
-输入格式：一个case输入
-输出格式：一个输出结果
+输入格式：先输入case个数，再一次输入每个case
+输出格式：一行一个结果。
 
-实例：洛谷A + B
+实例：杭电1090
 */
 
 #include <iostream>
 using namespace std;
 
 int main() {
-    int a, b;
-    cin >> a >> b;
-    cout << a + b << endl;
+    int n, a, b;
+    cin >> n;   // 输入的case数目
+    while (n != 0) {
+        cin >> a >> b;
+        cout << a + b << endl;
+        --n;
+    }
     return 0;
 }
 

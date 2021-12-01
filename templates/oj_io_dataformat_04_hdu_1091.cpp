@@ -1,9 +1,9 @@
-﻿// oj_io_dataformat_01.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// oj_io_dataformat_04_hdu_1091.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 /*
-输入格式：一个case输入
-输出格式：一个输出结果
+输入格式：每行输入一组case，当case中的数据满足某种情况时退出。
+输出格式：一行一个结果。
 
-实例：洛谷A + B
+实例：杭电1091
 */
 
 #include <iostream>
@@ -11,8 +11,14 @@ using namespace std;
 
 int main() {
     int a, b;
-    cin >> a >> b;
-    cout << a + b << endl;
+
+    while (true) {
+        cin >> a >> b;
+        if (a == 0 && b == 0) {
+            break;
+        }
+        cout << a + b << endl;// 一行一个结果
+    }
     return 0;
 }
 
