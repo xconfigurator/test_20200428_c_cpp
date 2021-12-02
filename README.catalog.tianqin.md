@@ -85,21 +85,28 @@ pat_basic_level/1013.cpp
 *，/
 
 ## 04. 数据结构专题1
-401. 栈  
-- 栈的极简实现（值得听）  
-- []()  
-    TODO pat_advanced_level/1051.cpp
+401. 栈  TODO
+- 栈的极简实现（值得听，一道经典的C语法习题。）  
+- [Pop Sequence](https://pintia.cn/problem-sets/994805342720868352/problems/994805427332562944)  
+    04_OJ/pat_advanced_level/1051.cpp
 
 402. 队列
 - 队列的测试代码 
     02_C++_STL/queue02.cpp
-- [Mice and Rice](https://pintia.cn/problem-sets/994805342720868352/problems/994805419468242944)   
-    (04:07)  
-    04_OJ/oj_pat_advanced_level/1056.cpp
+- [Mice and Rice](https://pintia.cn/problem-sets/994805342720868352/problems/994805419468242944)     
+    04_OJ/pat_advanced_level/1056.cpp
 - 补：LeetCode 933
-    04_OJ/oj_leetcode_70/LC933.cpp
+    04_OJ/leetcode_70/LC933.cpp
     
-403. 链表
+403. 链表   TODO
+```C
+typedef struct LNode {
+    int data;
+    struct LNode* next;
+} LNode;
+
+LNode* p = (LNode*) malloc(sizeof(LNode));
+```
 TODO pat_advanced_level/1032.cpp
 
 404. 二叉树1(链式存储)
