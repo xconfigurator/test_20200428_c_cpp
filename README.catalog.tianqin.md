@@ -85,11 +85,13 @@ pat_basic_level/1013.cpp
 *，/
 
 ## 04. 数据结构专题1
-401. 栈
-TODO pat_advanced_level/1051.cpp
+401. 栈  
+- 栈的极简实现（值得听）  
+- []()  
+    TODO pat_advanced_level/1051.cpp
 
 402. 队列
-- 队列的测试代码  
+- 队列的测试代码 
     02_C++_STL/queue02.cpp
 - [Mice and Rice](https://pintia.cn/problem-sets/994805342720868352/problems/994805419468242944)   
     (04:07)  
