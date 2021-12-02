@@ -90,10 +90,12 @@ TODO pat_advanced_level/1051.cpp
 
 402. 队列
 - 队列的测试代码  
-    02_C++_STL/quque02.cpp
-- Mice and Rice (04:07)  
+    02_C++_STL/queue02.cpp
+- [Mice and Rice](https://pintia.cn/problem-sets/994805342720868352/problems/994805419468242944)   
+    (04:07)  
     04_OJ/oj_pat_advanced_level/1056.cpp
-    // TODO
+- 补：LeetCode 933
+    04_OJ/oj_leetcode_70/LC933.cpp
     
 403. 链表
 TODO pat_advanced_level/1032.cpp
