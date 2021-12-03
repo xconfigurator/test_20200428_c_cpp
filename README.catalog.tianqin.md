@@ -128,33 +128,36 @@ math_lcm.cpp
 
 # #################################################################
 # TODO
-406. 树  
+p406. 树  
 - 树讲解  
     机考中，对采用结构数组存储的树考察得更多。
     01_DataStructure/Tree.md
 - [Path of Equal Weight](https://pintia.cn/problem-sets/994805342720868352/problems/994805424153280512)  
     TODO pat_advanced_level/1053.cpp 04:35 DFS
+    ????????????????????? 有问题啊！2021/12/3
 
-407. 排序二叉树 BST  
+407. 排序二叉树 BST
+- 排序二叉树的讲解（非常利索，3分钟全讲清。）  
 - [Is It a Binary Search Tree](https://pintia.cn/problem-sets/994805342720868352/problems/994805440976633856)  
-    TODO pat_advanced_level/1043.CPP
+    TODO pat_advanced_level/1043.CPP 02:46 （背！）
 
 408. 平衡二叉树 AVL  
+- 平衡二叉树的讲解
 - [Root of AVL Tree](https://pintia.cn/problem-sets/994805342720868352/problems/994805404939173888)  
-    TODO pat_advanced_level/1066.cpp
+    TODO pat_advanced_level/1066.cp（背！）
 
 ## 05. 数据结构专题2 - 图的相关算法
 501. 图的基本概念  
-邻接表 邻接矩阵 DFS BFS 
+    邻接表 邻接矩阵 DFS BFS 
 
-502. BFS应用实例 微博转发  
-- [Forwards on Weibo](https://pintia.cn/problem-sets/994805342720868352/problems/994805392092020736)
-TODO pat_advanced_level/1076.cpp
+502. BFS应用实例 微博转发 10分钟  
+- [Forwards on Weibo](https://pintia.cn/problem-sets/994805342720868352/problems/994805392092020736)  
+    TODO pat_advanced_level/1076.cpp
 
-503. MST (最小)生成树(本题没有提最小)  
-- [畅通工程](http://acm.hdu.edu.cn/showproblem.php?pid=1232)
-TODO HDU1232
+503. 生成树 10分钟  
+- [畅通工程](http://acm.hdu.edu.cn/showproblem.php?pid=1232)  
+    TODO HDU1232
 
-504. MST 最小生成树 (重点题目) kruskal  
-- [Constructing Roads](http://acm.hdu.edu.cn/showproblem.php?pid=1102)
-TODO HDU1102
+504. MST 最小生成树 (重点题目) kruskal 7分钟  
+- [Constructing Roads](http://acm.hdu.edu.cn/showproblem.php?pid=1102)  
+    TODO HDU1102 （背！）
