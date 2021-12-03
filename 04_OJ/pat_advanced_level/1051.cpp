@@ -1,16 +1,15 @@
 /**
  * @file 1051.cpp
  * @author liuyang copy from tianqin
- * @brief Pop Sequence
+ * @brief 栈练习
  * 
- * 题目：
+ * 题目：Pop Sequence
  * https://pintia.cn/problem-sets/994805342720868352/problems/994805427332562944
- * 视频：天勤机考 3:46 (一道栈的常考题)
- * 视频：天琴机考 6:32 (题目和代码) 可以多看几遍视频演示再看代码。
- * 
- * tianqin原版未使用STL，如果炫技，可以拿来练手。这里就是用STL的stack了。
  * 
  * 说明：使用栈解题
+ * 视频天勤机考 3:46 (一道栈的常考题)
+ * 视频天勤机考 6:32 (题目和代码) 可以多看几遍视频演示再看代码。
+ * tianqin原版未使用STL，如果炫技，可以拿来练手。这里就是用STL的stack了。
  * 提示：
  * OJ状态：答案正确
  * 
