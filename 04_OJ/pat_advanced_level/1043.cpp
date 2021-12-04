@@ -1,7 +1,7 @@
 /**
  * @file 1043.cpp
  * @author liuyang
- * @brief BST练习 
+ * @brief BST练习 背！
  * 
  * 题目：Is It a Binary Search Tree
  * https://pintia.cn/problem-sets/994805342720868352/problems/994805440976633856

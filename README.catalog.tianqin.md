@@ -1,8 +1,10 @@
 # 天勤复试上机指导 (刷题的时候可以跟着视频反复来几遍)
 
 ## 提要  
-pat_advanced_level/1020.cpp 03:50 (背！) 二叉树，给后序遍历和中序遍历，输出层序遍历序列。分治法。
-
+- pat_advanced_level/1020.cpp 03:50 (背！) 二叉树，给后序遍历和中序遍历，输出层序遍历序列。分治法。
+## 还有问题的
+- 树 1053.cpp
+- AVL 1066.cpp
 
 ## 00. 战前准备
 - IDE
@@ -125,26 +127,26 @@ math_lcm.cpp
 - [Invert a Binary Tree](https://pintia.cn/problem-sets/994805342720868352/problems/994805365537882112)  
     pat_advanced_level/1102.cpp
 
-
-# #################################################################
-# TODO
-p406. 树  
+406. 树  
 - 树讲解  
     机考中，对采用结构数组存储的树考察得更多。
     01_DataStructure/Tree.md
 - [Path of Equal Weight](https://pintia.cn/problem-sets/994805342720868352/problems/994805424153280512)  
-    TODO pat_advanced_level/1053.cpp 04:35 DFS
+    pat_advanced_level/1053.cpp 04:35 DFS
     ????????????????????? 有问题啊！2021/12/3
 
 407. 排序二叉树 BST
 - 排序二叉树的讲解（非常利索，3分钟全讲清。）  
 - [Is It a Binary Search Tree](https://pintia.cn/problem-sets/994805342720868352/problems/994805440976633856)  
-    TODO pat_advanced_level/1043.CPP 02:46 （背！）
+    pat_advanced_level/1043.CPP 02:46 （背！ 包括题目描述都看一下）
 
 408. 平衡二叉树 AVL  
-- 平衡二叉树的讲解
+- 平衡二叉树的讲解  
+    最小不平衡子树（以离插入节点最近，且平衡因子绝对值大于1的节点做根的子树。）   
+    需要翻看一下何钦铭老师讲解的平衡调整
 - [Root of AVL Tree](https://pintia.cn/problem-sets/994805342720868352/problems/994805404939173888)  
-    TODO pat_advanced_level/1066.cp（背！）
+    pat_advanced_level/1066.cp 2:14（背！包括题目描述都看一下） 
+    ????????????????????? 有问题啊！2021/12/3
 
 ## 05. 数据结构专题2 - 图的相关算法
 501. 图的基本概念  
