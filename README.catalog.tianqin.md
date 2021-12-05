@@ -1,4 +1,6 @@
-# 天勤复试上机指导 (刷题的时候可以跟着视频反复来几遍)
+# 天勤复试上机指导笔记
+>刷题的时候可以跟着视频反复来几遍
+
 
 ## 提要  
 >pat_advanced_level/1020.cpp 03:50 (背！) 二叉树，给后序遍历和中序遍历，输出层序遍历序列。分治法。  
@@ -9,7 +11,7 @@
     TODO HDU1102 （背！）  
 > 最大公约数/最小公倍数
 
-## 还有问题的
+## 还有问题的代码
 - 树 1053.cpp
 - AVL 1066.cpp
 
@@ -18,32 +20,33 @@
 - OJ的输入输出
 >位置：templates/oj_io_*.cpp 这些都已经在Visual Studio 2022 Community中验证通过。
 
+
 ## 01. 模拟
 >不需要复杂的算法，解题的方法已经在题目描述中告知了。  
 101. 模拟1
 - [害死人不偿命的（3n+1）猜想](https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528)  
     pat_basic_level/1001.cpp
 
-- [挖掘机技术哪家强](https://pintia.cn/problem-sets/994805260223102976/problems/994805289432236032)
-pat_basic_level/1032.cpp
+- [挖掘机技术哪家强](https://pintia.cn/problem-sets/994805260223102976/problems/994805289432236032)  
+    pat_basic_level/1032.cpp
 
-- [找x](https://blog.csdn.net/geek_jerome/article/details/79114301) <--重要！！
-codeup/1934.cpp
-codeup 1934 找x 08:40
+- [找x](https://blog.csdn.net/geek_jerome/article/details/79114301) <--重要！！  
+    codeup/1934.cpp  
+    codeup 1934 找x 08:40
 
-- [跟奥巴马一起学编程](https://pintia.cn/problem-sets/994805260223102976/problems/994805285812551680)
-pat_basic_level/1036.cpp
+- [跟奥巴马一起学编程](https://pintia.cn/problem-sets/994805260223102976/problems/994805285812551680)  
+    pat_basic_level/1036.cpp
 
-- [日期插值](https://blog.csdn.net/xsj_blog/article/details/51988328) <--重要！！
-codeup/1928.cpp
-codeup 1928 日期插值 15:22
+- [日期插值](https://blog.csdn.net/xsj_blog/article/details/51988328) <--重要！！  
+    codeup/1928.cpp  
+    codeup 1928 日期插值 15:22
 
 102. 模拟2
-- [D进制的A+B](https://pintia.cn/problem-sets/994805260223102976/problems/994805299301433344)
-pat_basic_level/1022.cpp
+- [D进制的A+B](https://pintia.cn/problem-sets/994805260223102976/problems/994805299301433344)  
+    pat_basic_level/1022.cpp
 
-- [说反话](https://pintia.cn/problem-sets/994805260223102976/problems/994805314941992960)
-pat_basic_level/1009.cpp
+- [说反话](https://pintia.cn/problem-sets/994805260223102976/problems/994805314941992960)  
+    pat_basic_level/1009.cpp
 
 
 ## 02. 算法初步
@@ -60,9 +63,9 @@ pat_basic_level/1009.cpp
 - [买还是不买](https://pintia.cn/problem-sets/994805342720868352/problems/994805374509498368)  
     pat_advanced_level/1092.cpp 07:15
 
-203. 分治
-- [航电 OJ 题目 Max Sum](http://acm.hdu.edu.cn/showproblem.php?pid=1003)  
-    TODO 视频：https://www.bilibili.com/video/BV1Ty4y1n7JH?p=9&spm_id_from=pageDriver)
+203. 分治  
+- 介绍分治算法 - 快速排序（2分钟讲完）  
+- [航电 OJ 题目 Max Sum](http://acm.hdu.edu.cn/showproblem.php?pid=1003)貌似就是最大子列和  
 - 补: [浙大DS 最大子列和的各种算法讲解](https://www.bilibili.com/video/BV1JW411i731?p=8)  
 - 补: [Tree Traversals](https://pintia.cn/problem-sets/994805342720868352/problems/994805485033603072)  记录见“二叉树1”
 
@@ -77,14 +80,15 @@ pat_basic_level/1009.cpp
 - [完美数列](https://pintia.cn/problem-sets/994805260223102976/problems/994805291311284224)  
     pat_basic_level/1030.cpp
 
+
 ## 03. 数学问题
 301. 简单数学问题  
 - [The Black Hole of Numbers](https://pintia.cn/problem-sets/994805342720868352/problems/994805400954585088)  
-    TODO pat_advanced_level/1069.cpp
+    pat_advanced_level/1069.cpp
 
 302. 最大公约数与最小公倍数 (高频考点)
-- math_gcd.cpp
-- math_lcm.cpp
+- 00_Algorithms/oj_tq/math_gcd.cpp
+- 00_Algorithms/oj_tq/math_lcm.cpp
 
 303. 分数的四则运算  
 - [有理数四则运算](https://pintia.cn/problem-sets/994805260223102976/problems/994805287624491008)  
@@ -98,7 +102,9 @@ pat_basic_level/1009.cpp
 305. 大整数运算1 (高频考点)  
 - 表示，+，-
 306. 大整数运算2  
-- *，/
+- *，/  
+    00_Algorithms/oj_tq/big_integer.cpp
+
 
 ## 04. 数据结构专题1
 401. 栈
@@ -157,6 +163,7 @@ pat_basic_level/1009.cpp
     pat_advanced_level/1066.cp 2:14（背！包括题目描述都看一下） 
     ????????????????????? 有问题啊！2021/12/3
 
+
 ## 05. 数据结构专题2 - 图的相关算法
 501. 图的基本概念（7分钟串讲核心概念）  
     邻接矩阵 邻接表 DFS BFS 
@@ -172,3 +179,7 @@ pat_basic_level/1009.cpp
 504. MST 最小生成树 (重点题目) kruskal 7分钟  
 - [Constructing Roads](http://acm.hdu.edu.cn/showproblem.php?pid=1102)  
     TODO HDU1102 （背！）
+
+
+>20211205 codeup已经无法访问了。貌似是这个网站已经彻底不存在了。  
+>20211205 杭电OJ也无法访问。

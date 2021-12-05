@@ -1,5 +1,5 @@
 /*
-最大公约数（欧几里得算法）
+最大公约数（欧几里得算法） gcd(a, b) = gcd(b, a % b)
 greatest common divisor
 
 @author liuyang
@@ -24,8 +24,6 @@ int getGcd(int a, int b) {
         return getGcd(b, a % b);
     }
 }
-
-
 
 int main() {
     int m, n;
