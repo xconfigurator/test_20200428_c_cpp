@@ -66,6 +66,7 @@
 203. 分治  
 - 介绍分治算法 - 快速排序（2分钟讲完）  
 - [航电 OJ 题目 Max Sum](http://acm.hdu.edu.cn/showproblem.php?pid=1003)貌似就是最大子列和  
+    hdu/1003.cpp
 - 补: [浙大DS 最大子列和的各种算法讲解](https://www.bilibili.com/video/BV1JW411i731?p=8)  
 - 补: [Tree Traversals](https://pintia.cn/problem-sets/994805342720868352/problems/994805485033603072)  记录见“二叉树1”
 
