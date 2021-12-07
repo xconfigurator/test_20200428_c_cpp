@@ -148,13 +148,13 @@
     机考中，对采用结构数组存储的树考察得更多。
     01_DataStructure/Tree.md
 - [Path of Equal Weight](https://pintia.cn/problem-sets/994805342720868352/problems/994805424153280512)  
-    pat_advanced_level/1053.cpp 04:35 DFS
+    pat_advanced_level/1053.cpp 04:35           DFS
     ????????????????????? 有问题啊！2021/12/3
 
 407. 排序二叉树 BST
 - 排序二叉树的讲解（非常利索，3分钟全讲清。）  
 - [Is It a Binary Search Tree](https://pintia.cn/problem-sets/994805342720868352/problems/994805440976633856)  
-    pat_advanced_level/1043.CPP 02:46 （背！ 包括题目描述都看一下）
+    pat_advanced_level/1043.CPP 02:46 （背！ 包括题目描述都看一下）  
 
 408. 平衡二叉树 AVL  
 - 平衡二叉树的讲解  
@@ -171,15 +171,17 @@
 
 502. BFS应用实例 微博转发 10分钟  
 - [Forwards on Weibo](https://pintia.cn/problem-sets/994805342720868352/problems/994805392092020736)  
-    TODO pat_advanced_level/1076.cpp
+    04_OJ/pat_advanced_level/1076.cpp      BFS（树那一节是一个DFS的例子）
+    ????????????????????? 有问题啊！ 2021/12/7
+    联想：五夜十篇第二篇
 
 503. 生成树 10分钟  
 - [畅通工程](http://acm.hdu.edu.cn/showproblem.php?pid=1232)  
-    TODO HDU1232 并查集
+    04_OJ/hdu/1232.cpp 并查集（背！）
 
 504. MST 最小生成树 (重点题目) kruskal 7分钟  
 - [Constructing Roads](http://acm.hdu.edu.cn/showproblem.php?pid=1102)  
-    TODO HDU1102 （背！）
+    04_OJ/hdu/1102.cpp （背！）
 
 
 >20211205 codeup已经无法访问了。貌似是这个网站已经彻底不存在了。  
