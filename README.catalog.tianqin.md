@@ -149,7 +149,6 @@
     01_DataStructure/Tree.md
 - [Path of Equal Weight](https://pintia.cn/problem-sets/994805342720868352/problems/994805424153280512)  
     pat_advanced_level/1053.cpp 04:35           DFS
-    ????????????????????? 有问题啊！2021/12/3
 
 407. 排序二叉树 BST
 - 排序二叉树的讲解（非常利索，3分钟全讲清。）  
@@ -172,7 +171,6 @@
 502. BFS应用实例 微博转发 10分钟  
 - [Forwards on Weibo](https://pintia.cn/problem-sets/994805342720868352/problems/994805392092020736)  
     04_OJ/pat_advanced_level/1076.cpp      BFS（树那一节是一个DFS的例子）
-    ????????????????????? 有问题啊！ 2021/12/7
     联想：五夜十篇第二篇
 
 503. 生成树 10分钟  
