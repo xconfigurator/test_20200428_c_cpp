@@ -54,7 +54,7 @@ void DFS(int index, int numNode, int sum) {
         for (int i = 0; i < numNode; ++i) {     // 满足
             cout << nodes[path[i]].weight;
             // 输出，注意格式。最后一个值的后面不可以有空格。
-            if (i < numNode - 1) {
+            if (i < numNode - 1) {// 前numNode - 1个节点
                 cout << " ";
             } else {
                 cout << endl;
@@ -65,9 +65,9 @@ void DFS(int index, int numNode, int sum) {
     }
     // DFS （树中没有环路，所以不需要图DFS中的那个visited数组）
     for (int i = 0; i < nodes[index].n; ++i) {  // 当前访问的节点有几个孩子就有几个递归入口
-        int temp = nodes[index].children[i];    // 当前访问节点的孩子节点中的一个的地址
-        path[numNode] = temp;                   // 记录路径， temp就是下一个将要访问的节点的地址
-        DFS(temp, numNode + 1, sum + nodes[temp].weight);
+        int nextHop = nodes[index].children[i]; // 当前访问节点的孩子节点中的一个的地址
+        path[numNode] = nextHop;                // 记录路径， temp就是下一个将要访问的节点的地址
+        DFS(nextHop, numNode + 1, sum + nodes[nextHop].weight);
     }
 }
 
@@ -80,6 +80,7 @@ int main(int argc, char const *argv[]) {
 
     // 建树（处理非叶节点，非叶节点数是M）
     int ID, K, child;
+    // 只需要处理非叶节点就可以把树建出来（建树主要就是建立节点之间的关系。）
     for (int i = 0; i < M; ++i) {               // 节点数据 （节点编号 | 子节点数 | 子节点编号列表(孩子节点在数组中的下标或者叫孩子节点在静态多叉链表中的地址)）
         cin >> ID >> K;
         for (int j = 0; j < K; ++j) {
