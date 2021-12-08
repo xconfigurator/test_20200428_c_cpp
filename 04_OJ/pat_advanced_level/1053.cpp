@@ -1,15 +1,13 @@
 /**
  * @file 1053.cpp
  * @author liuyang
- * @brief 树练习题 Path of Equal Weight (结构体数组存储)
- * 
- * TODO ???????????????????????????
+ * @brief 树练习题 Path of Equal Weight (结构体数组存储) DFS的应用例子
  * 
  * 题目：Path of Equal Weight
  * https://pintia.cn/problem-sets/994805342720868352/problems/994805424153280512
  * 说明：04:35, 题目描述比较繁琐，听视频解释把。跟着视频的思路能把代码比较流畅地撸出来就ok。
  *       07:49开始讲代码。
- * OJ状态：错误
+ * OJ状态：答案正确
  * 
  * @version 0.1
  * @date 2021-12-03
@@ -61,8 +59,9 @@ void DFS(int index, int numNode, int sum) {
             } else {
                 cout << endl;
             }
-            return ;
+            //return ; // 这个return写错地方了。
         }
+        return; // 应该在这里return。
     }
     // DFS （树中没有环路，所以不需要图DFS中的那个visited数组）
     for (int i = 0; i < nodes[index].n; ++i) {  // 当前访问的节点有几个孩子就有几个递归入口
