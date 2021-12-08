@@ -5,7 +5,7 @@
  * 
  * 题目：Root of AVL Tree
  * https://pintia.cn/problem-sets/994805342720868352/problems/994805404939173888
- * 说明：背。 2:14。 提示，结合视频演示，撸出对应代码。
+ * 说明：背！ 2:14。 提示，结合视频演示，撸出对应代码。
  * OJ状态：
  * 有问题！！！
  * 
@@ -18,12 +18,13 @@
 #include <iostream>
 using namespace std;
 
+// 这个写法C/C++通用
 typedef struct BTNode {
     int data;
     struct BTNode *lChild, *rChild;     // 见一下这种写法。
 } BTNode;
 
-BTNode *rotateL(BTNode* root) {
+BTNode* rotateL(BTNode* root) {
     BTNode* t = root->rChild;
     root->rChild = t->lChild;
     t->lChild = root;
@@ -53,7 +54,7 @@ int getHeight(BTNode *root) {// 用于检测平衡因子
 }
 
 // 创建AVL
-void insert(BTNode* root, int data) {
+void insert(BTNode* &root, int data) {// fix 20211208 void insert(BTNode* root, int data) 写成这样肯定不对！！！注意使用引用！
     if (root == NULL) {
         root = new BTNode();
         root->data = data;
