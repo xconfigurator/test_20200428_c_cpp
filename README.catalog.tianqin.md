@@ -1,19 +1,13 @@
 # 天勤复试上机指导笔记
 >刷题的时候可以跟着视频反复来几遍
 
-
 ## 提要  
 >pat_advanced_level/1020.cpp 03:50 (背！) 二叉树，给后序遍历和中序遍历，输出层序遍历序列。分治法。  
 >pat_advanced_level/1043.CPP 02:46 （背！ 包括题目描述都看一下） BST  
 >pat_advanced_level/1066.cpp pat_advanced_level/1066.cp 2:14（背！包括题目描述都看一下） 
-    ????????????????????? 有问题啊！2021/12/3  
 >[Constructing Roads](http://acm.hdu.edu.cn/showproblem.php?pid=1102)  
-    TODO HDU1102 （背！）  
+    04_OJ/hdu/1102.cpp （背！）
 > 最大公约数/最小公倍数
-
-## 还有问题的代码
-- 树 1053.cpp
-- AVL 1066.cpp
 
 ## 00. 战前准备
 - IDE
@@ -161,8 +155,6 @@
     需要翻看一下何钦铭老师讲解的平衡调整
 - [Root of AVL Tree](https://pintia.cn/problem-sets/994805342720868352/problems/994805404939173888)  
     pat_advanced_level/1066.cp 2:14（背！包括题目描述都看一下） 
-    ????????????????????? 有问题啊！2021/12/3
-
 
 ## 05. 数据结构专题2 - 图的相关算法
 501. 图的基本概念（7分钟串讲核心概念）  
