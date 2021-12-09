@@ -1,9 +1,10 @@
 /**
  * @file LC933.cpp
  * @author liuyang
- * @brief 最近的请求次数 The Number of Calls
+ * @brief 队列练习
+ * 933 最近的请求次数 The Number of Calls
+ * https://leetcode-cn.com/problems/number-of-recent-calls/
  * 
- * 题目：https://leetcode-cn.com/problems/number-of-recent-calls/
  * OJ状态：通过
  * 
  * @version 0.1

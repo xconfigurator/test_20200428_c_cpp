@@ -10,7 +10,8 @@ LC283.cpp
 LC27.cpp
 
 # 链表
-LC203.cpp
+LC203.cpp   ok
+LC206.cpp   
 
 # 队列
 LC933.cpp   ok

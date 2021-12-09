@@ -1,4 +1,6 @@
-# 天勤复试上机指导笔记
+# 基础（核心）题串讲
+>1. 天勤复试上机指导笔记(主体)
+>2. LeetCode 入门70题(补充)
 >刷题的时候可以跟着视频反复来几遍
 
 ## 提要  
@@ -105,7 +107,15 @@
 401. 栈
 - 栈的极简实现（值得听，一道经典的C语法习题。）  
 - [Pop Sequence](https://pintia.cn/problem-sets/994805342720868352/problems/994805427332562944)  
-    04_OJ/pat_advanced_level/1051.cpp
+    04_OJ/pat_advanced_level/1051.cpp  
+- 补：浙大何钦铭老师讲解的栈的例子。  
+- 补: imooc  
+    00_Algorithms/recite_essential_tools/Stack01Conversion.cpp  
+    00_Algorithms/recite_essential_tools/Stack02ParenthesisMatching.cpp
+- 补：[LeetCode 20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)  
+    04_OJ/leetcode_70/LC20.cpp 
+- 补：[LeetCode 496.下一个更大元素](https://leetcode-cn.com/problems/valid-parentheses/)  
+    04_OJ/leetcode_70/LC496.cpp
 
 402. 队列
 - 队列的测试代码 
@@ -120,10 +130,12 @@
     01_DataStructure/List.md
 - [Sharing](https://pintia.cn/problem-sets/994805342720868352/problems/994805460652113920) 05:12  
     04_OJ/pat_advanced_level/1032.cpp
-- 补：LeetCode 203
-    TODO 
-- 补：LeetCode 206
-    TODO 
+- 补：[LeetCode 203 删除链表的元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)
+    04_OJ/leetcode_70/LC203.cpp 
+- 补：[LeetCode 206 链表逆转](https://leetcode-cn.com/problems/reverse-linked-list/)
+    04_OJ/leetcode_70/LC206.cpp
+- 补：[浙大陈越老师的单链表分块逆转。(这个还是很重要的！) ](https://pintia.cn/problem-sets/988034414048743424/problems/988038293285015552)  
+    TODO 01_DataStructure/00_zju/3-2.2.c
 
 404. 二叉树1(链式存储) 
 - 二叉树讲解（串讲，很利索！）  
@@ -167,12 +179,30 @@
 
 503. 生成树 10分钟  
 - [畅通工程](http://acm.hdu.edu.cn/showproblem.php?pid=1232)  
-    04_OJ/hdu/1232.cpp 并查集（背！）
+    04_OJ/hdu/1232.cpp 并查集（背！）  
 
-504. MST 最小生成树 (重点题目) kruskal 7分钟  
-- [Constructing Roads](http://acm.hdu.edu.cn/showproblem.php?pid=1102)  
-    04_OJ/hdu/1102.cpp （背！）
+# 补充1
+1. 数组
+- 补：[LeetCode 485. 最大连续 1 的个数](https://leetcode-cn.com/problems/max-consecutive-ones/)  
+    O4_OJ/leetcode_70/LC485.cpp 数组
+- 补：[LeetCode 283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)  
+    04_OJ/leetcode_70/LC283.cpp 数组
+- 补：[LeetCode 27. 移除元素(双指针技术)](https://leetcode-cn.com/problems/remove-element/)  
+    04_OJ/leetcode_70/LC27.cpp  数组
+2. 哈希表
+- 浙大何钦铭老师对hash表的讲解。
+- TODO LC389.cpp
+- TODO LC271.cpp
+3. 集合
+- TODO LC705.cpp
+4. 堆
+- TODO LC215.cpp
+- TODO LC692.cpp 
 
-
+# 补充2
+0. TODO LC509.cpp （斐波那契数列）
+1. KMP
+2. B树/B+树
+# 附录
 >20211205 codeup已经无法访问了。貌似是这个网站已经彻底不存在了。  
 >20211205 杭电OJ也无法访问。
