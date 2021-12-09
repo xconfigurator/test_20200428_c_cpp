@@ -194,7 +194,7 @@
 2. 哈希表
 - 浙大何钦铭老师对hash表的讲解。
 - 补:[LeetCode 217. 存在重复元素 ](https://leetcode-cn.com/problems/contains-duplicate/)  
-    TODO 04_OJ/leetcode_70/LC217.cpp
+    TODO 04_OJ/leetcode_70/LC217Map.cpp
 - 补:[LeetCode 389. 找不同](https://leetcode-cn.com/problems/find-the-difference/)  
     TODO 04_OJ/leetcode_70/LC389.cpp
 - 补:[LeetCode 496.下一个更大元素](https://leetcode-cn.com/problems/valid-parentheses/)  
@@ -202,11 +202,13 @@
 3. 集合
 - 补:[LeetCode 705.设计哈希集合 ](https://leetcode-cn.com/problems/design-hashset/)  
     TODO 04_OJ/leetcode_70/LC705.cpp
+- 补:[LeetCode 217. 存在重复元素 ](https://leetcode-cn.com/problems/contains-duplicate/)    
+    TODO 04_OJ/leetcode_70/LC217Set.cpp
 4. 堆
 - 补:[LeetCode 215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)  
-    TODO 04_OJ/leetcode_70/LC215.cpp
+    TODO 04_OJ/leetcode_70/LC215Heap.cpp
 - 补:[LeetCode 692.前K个高频单词 ](https://leetcode-cn.com/problems/top-k-frequent-words/)  
-    TODO 04_OJ/leetcode_70/LC692.cpp 
+    TODO 04_OJ/leetcode_70/LC692Heap.cpp 
 
 # 补充2
 0. LeetCode 509 斐波那契数列  
