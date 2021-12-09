@@ -10,6 +10,8 @@
 >[Constructing Roads](http://acm.hdu.edu.cn/showproblem.php?pid=1102)  
     04_OJ/hdu/1102.cpp （背！）
 > 最大公约数/最小公倍数
+>补：[浙大陈越老师的单链表分块逆转。(这个还是很重要的！) ](https://pintia.cn/problem-sets/988034414048743424/problems/988038293285015552)  
+    TODO 01_DataStructure/00_zju/3-2.2.c
 
 ## 00. 战前准备
 - IDE
@@ -115,7 +117,7 @@
 - 补：[LeetCode 20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)  
     04_OJ/leetcode_70/LC20.cpp 
 - 补：[LeetCode 496.下一个更大元素](https://leetcode-cn.com/problems/valid-parentheses/)  
-    04_OJ/leetcode_70/LC496.cpp
+    04_OJ/leetcode_70/LC496StackStack.cpp
 
 402. 队列
 - 队列的测试代码 
@@ -191,16 +193,24 @@
     04_OJ/leetcode_70/LC27.cpp  数组
 2. 哈希表
 - 浙大何钦铭老师对hash表的讲解。
-- TODO LC389.cpp
-- TODO LC271.cpp
+- 补:[LeetCode 217. 存在重复元素 ](https://leetcode-cn.com/problems/contains-duplicate/)  
+    TODO 04_OJ/leetcode_70/LC217.cpp
+- 补:[LeetCode 389. 找不同](https://leetcode-cn.com/problems/find-the-difference/)  
+    TODO 04_OJ/leetcode_70/LC389.cpp
+- 补:[LeetCode 496.下一个更大元素](https://leetcode-cn.com/problems/valid-parentheses/)  
+    TODO 04_OJ/leetcode_70/Lc496StackHashTable.cpp
 3. 集合
-- TODO LC705.cpp
+- 补:[LeetCode 705.设计哈希集合 ](https://leetcode-cn.com/problems/design-hashset/)  
+    TODO 04_OJ/leetcode_70/LC705.cpp
 4. 堆
-- TODO LC215.cpp
-- TODO LC692.cpp 
+- 补:[LeetCode 215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)  
+    TODO 04_OJ/leetcode_70/LC215.cpp
+- 补:[LeetCode 692.前K个高频单词 ](https://leetcode-cn.com/problems/top-k-frequent-words/)  
+    TODO 04_OJ/leetcode_70/LC692.cpp 
 
 # 补充2
-0. TODO LC509.cpp （斐波那契数列）
+0. LeetCode 509 斐波那契数列  
+    04_OJ/leetcode_70/LC509.cpp （斐波那契数列）
 1. KMP
 2. B树/B+树
 # 附录
