@@ -4,7 +4,7 @@
  * @brief set示例 
  * 
  * 大小、交换
- * size()
+ * size()                   注意，set没有提供resize方法（vector, list, deque都提供了。）
  * empty()
  * swap();
  * 
