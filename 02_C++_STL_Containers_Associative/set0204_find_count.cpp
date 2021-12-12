@@ -1,5 +1,5 @@
 /**
- * @file set0304_find_count.cpp
+ * @file set0204_find_count.cpp
  * @author liuyang
  * @brief 
  * 
@@ -29,9 +29,9 @@ int main(int argc, char const *argv[]) {
 
     // find();
     set<int>::iterator it = s1.find(4);
-    cout << "s1.find(4) = " << (it == s1.end() ? "没找到": "找到") << endl;
+    cout << "s1.find(4) = " << (it == s1.end() ? "没找到": "找到") <<  *it << endl;
     it = s1.find(5);
-    cout << "s1.find(5) = " << (it == s1.end() ? "没找到": "找到") << endl;
+    cout << "s1.find(5) = " << (it == s1.end() ? "没找到": "找到") << *it << endl;// 注意：没找到的时候迭代器指向的是集合末尾的元素
     
     // count();
     cout << "s1.count(4) = " << s1.count(4) << endl;
