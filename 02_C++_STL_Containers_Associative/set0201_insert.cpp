@@ -34,11 +34,13 @@ int main(int argc, char const *argv[]) {
     myset.insert(-1);
     printSet(myset);    // 容器特点：不重复，排序。
 
-    // 拷贝构造函数
+    // 拷贝构造
+    cout << "拷贝构造" << endl;
     set<int> mysetcopy(myset);
     printSet(mysetcopy);  
 
     // 赋值
+    cout << "赋值构造" << endl;
     set<int> myset3;
     myset3 = myset;
     printSet(myset3);

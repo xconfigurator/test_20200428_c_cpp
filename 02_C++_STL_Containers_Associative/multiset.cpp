@@ -28,7 +28,12 @@ void test01() {
     cout << "是否插入成功：" << ret.second << endl;
 
     multiset<int> ms;// multiset的insert不会返回上面的那个pair，而是一个iterator
-    
+    for (int i = 0; i < 4; i++) {
+        ms.insert(4);
+    }
+    for (multiset<int>::iterator it = ms.begin(); it != ms.end(); it++) {
+        cout << *it << " ";
+    }
 }
 
 int main(int argc, char const* argv[]) {
