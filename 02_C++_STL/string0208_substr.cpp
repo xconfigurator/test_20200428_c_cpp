@@ -20,5 +20,8 @@ using namespace std;
 int main(int argc, char const *argv[]) {
     string str = "foo, bar";
     string subStr = str.substr(5, 3);       // bar
+
+    string str2 = "xconfigurator@hotmail.com";
+    string username = str2.substr(0, str2.find("@"));
     return 0;
 }
