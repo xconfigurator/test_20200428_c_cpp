@@ -23,7 +23,8 @@ struct RuleMinHeap {
 int main() {
 
     int a[] = { 9, 8, 7, 6, 5, 11, 12 , 13, 14 , 88, 99 };
-    priority_queue<int, vector<int>, RuleMinHeap> heap;
+    //priority_queue<int, vector<int>, RuleMinHeap> heap;
+    priority_queue<int, vector<int>, greater<int>> heap;
 
     // 建堆
     for (int i = 0; i < sizeof(a) / sizeof(a[0]); i++) {

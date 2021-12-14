@@ -56,5 +56,9 @@ int main(int argc, char const *argv[]) {
          cout << "[" << cpair.first << "," << cpair.second << "]" << endl;
     }
 
+    // 示例：
+    map<int, int, less<int>> m3; // 默认！
+    map<int, int, greater<int>> m4;
+
     return 0;
 }
