@@ -5,6 +5,8 @@
  * 496. 下一个更大元素 I
  * https://www.bilibili.com/read/cv8687919
  * 
+ * 视频：
+ * https://www.bilibili.com/video/BV1sy4y1q79M?p=23
  * 
  * 参考：
  * https://www.bilibili.com/read/cv8687919

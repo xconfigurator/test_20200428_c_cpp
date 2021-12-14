@@ -194,16 +194,16 @@
 2. 哈希表
 - 浙大何钦铭老师对hash表的讲解。
 - 补:[LeetCode 217. 存在重复元素 ](https://leetcode-cn.com/problems/contains-duplicate/)  
-    TODO 04_OJ/leetcode_70/LC217Map.cpp
+    04_OJ/leetcode_70/LC217Map.cpp 说明可以使用统计单词词频的套路 不过显然用set更简单
 - 补:[LeetCode 389. 找不同](https://leetcode-cn.com/problems/find-the-difference/)  
-    TODO 04_OJ/leetcode_70/LC389.cpp
+    04_OJ/leetcode_70/LC389.cpp 元素已经确定的情况下使用数组来表示哈希表
 - 补:[LeetCode 496.下一个更大元素](https://leetcode-cn.com/problems/valid-parentheses/)  
-    TODO 04_OJ/leetcode_70/Lc496StackHashTable.cpp
+    04_OJ/leetcode_70/Lc496StackHashTable.cpp STL vector + map + stack
 3. 集合
 - 补:[LeetCode 705.设计哈希集合 ](https://leetcode-cn.com/problems/design-hashset/)  
     TODO 04_OJ/leetcode_70/LC705.cpp
 - 补:[LeetCode 217. 存在重复元素 ](https://leetcode-cn.com/problems/contains-duplicate/)    
-    TODO 04_OJ/leetcode_70/LC217Set.cpp
+    04_OJ/leetcode_70/LC217Set.cpp 充分利用STL set的特性，及插入重复后会在pair的返回值的second中写入false。
 4. 堆
 - 补:[LeetCode 215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)  
     TODO 04_OJ/leetcode_70/LC215Heap.cpp
