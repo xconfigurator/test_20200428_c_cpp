@@ -201,18 +201,21 @@
     04_OJ/leetcode_70/Lc496StackHashTable.cpp STL vector + map + stack
 3. 集合
 - 补:[LeetCode 705.设计哈希集合 ](https://leetcode-cn.com/problems/design-hashset/)  
-    TODO 04_OJ/leetcode_70/LC705.cpp
+    pause 04_OJ/leetcode_70/LC705.cpp 视频里介绍了一个特别浪费空间的算法。  
+    还是听何钦铭老师对哈希表的讲解吧。
 - 补:[LeetCode 217. 存在重复元素 ](https://leetcode-cn.com/problems/contains-duplicate/)    
     04_OJ/leetcode_70/LC217Set.cpp 充分利用STL set的特性，及插入重复后会在pair的返回值的second中写入false。
 4. 堆
 - 补:[LeetCode 215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)  
-    TODO 04_OJ/leetcode_70/LC215Heap.cpp
+    04_OJ/leetcode_70/LC215HeapAlgorithm.cpp  
+    04_OJ/leetcode_70/LC215HeapPriorityQueue.cpp
 - 补:[LeetCode 692.前K个高频单词 ](https://leetcode-cn.com/problems/top-k-frequent-words/)  
-    TODO 04_OJ/leetcode_70/LC692Heap.cpp 
+    04_OJ/leetcode_70/LC692HeapHashTable.cpp 
 
 # 补充2
 0. LeetCode 509 斐波那契数列  
-    04_OJ/leetcode_70/LC509.cpp （斐波那契数列）
+    04_OJ/leetcode_70/LC509.cpp （斐波那契数列）  
+    听清华 程序设计基础的“兔子数列”问题视频讲解。
 1. KMP
 2. B树/B+树
 # 附录
