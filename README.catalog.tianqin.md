@@ -9,9 +9,8 @@
 >pat_advanced_level/1066.cpp pat_advanced_level/1066.cp 2:14（背！包括题目描述都看一下） 
 >[Constructing Roads](http://acm.hdu.edu.cn/showproblem.php?pid=1102)  
     04_OJ/hdu/1102.cpp （背！）
-> 最大公约数/最小公倍数
 >补：[浙大陈越老师的单链表分块逆转。(这个还是很重要的！) ](https://pintia.cn/problem-sets/988034414048743424/problems/988038293285015552)  
-    TODO 01_DataStructure/00_zju/3-2.2.c
+    01_DataStructure/01_zju/3-2.2.c （仅保存伪码 2021/12/22）
 
 ## 00. 战前准备
 - IDE
@@ -137,7 +136,7 @@
 - 补：[LeetCode 206 链表逆转](https://leetcode-cn.com/problems/reverse-linked-list/)
     04_OJ/leetcode_70/LC206.cpp
 - 补：[浙大陈越老师的单链表分块逆转。(这个还是很重要的！) ](https://pintia.cn/problem-sets/988034414048743424/problems/988038293285015552)  
-    TODO 01_DataStructure/00_zju/3-2.2.c
+    01_DataStructure/01_zju/3-2.2.c （仅保存伪码 2021/12/22）
 
 404. 二叉树1(链式存储) 
 - 二叉树讲解（串讲，很利索！）  
