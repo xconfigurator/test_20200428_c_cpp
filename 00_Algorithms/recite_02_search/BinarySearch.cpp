@@ -42,8 +42,8 @@ int binarySearch(vector<int> a, int size, int p) {
 
 int main() {
 	// 1. 从文件读入数据
-	int n = 0, position = -1, aim = 4; // aim时待查找值
-	freopen("F:/temp/test.txt", "r", stdin);//VS2017 Community会提示stdin未定义，但仍然可以编译通过
+	int n = 0, position = -1, aim = 9; // aim时待查找值
+	freopen("D:/test/test.txt", "r", stdin);//VS2017 Community会提示stdin未定义，但仍然可以编译通过
 	vector<int> vec;
 	while (cin >> n) {
 		vec.push_back(n);
