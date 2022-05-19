@@ -15,7 +15,7 @@
 ## 00. 战前准备
 - IDE
 - OJ的输入输出
->位置：templates/oj_io_*.cpp 这些都已经在Visual Studio 2022 Community中验证通过。
+>位置：templates/oj_*.cpp 这些都已经在Visual Studio 2022 Community中验证通过。
 
 
 ## 01. 模拟
