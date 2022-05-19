@@ -11,7 +11,8 @@ cout << ch;
 
 注意：cin从键盘缓冲区中取字符的时候只取可打印字符（会过滤掉空格、制表符、回车等）。
 
-输入样例：abc d   e
+输入样例：
+ abc d   e
 输出样例：
 1:97 
 2:98 
@@ -29,9 +30,9 @@ int main(int argc, char const *argv[]) {
 	char ch;
 	int i = 1;
 	while (true) {
-		cin >> ch;
+		cin >> ch;// cin只取可打印字符
 		cout << i++ << ":" << (int)ch << endl;
-		if ((int)ch == 10) {// 貌似是不会被执行的
+		if ((int)ch == 10) {// 貌似是不会被执行的。（因为cin会把回车过滤掉，所以不会有10）
 			i = 1;
 		}
 	}

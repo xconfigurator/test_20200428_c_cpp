@@ -4,6 +4,9 @@ ref：天勤机考准备 04 字符输入输出
 时间：01:36 - 9:29 举例
 说明：getch执行机制：05:51
 
+测试输入：
+ abc    d
+输出解释：中间那个长空输入的是tab，但是被VSCode补成了空格，所以输出会出现连续四个32。
 */
 #include <iostream>
 using namespace std;

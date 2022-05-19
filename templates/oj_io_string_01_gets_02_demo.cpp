@@ -24,7 +24,9 @@ puts(s);
 貌似gets_s和gets还是有区别的。实测gets_s是不接受回车的。
 
 // scanf版本
-输入样例：abc d
+输入样例：
+abc d
+
 输出样例：
 0:97
 1:98
