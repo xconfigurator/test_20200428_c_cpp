@@ -28,8 +28,8 @@ int main(int argc, char const *argv[]) {
         c = a % b;
     }
 
-    cout << "最大公约数：" << b << endl;
-    cout << "最小公倍数：" << m / b << endl;
+    cout << "最大公约数：" << b << endl;// gcd Greatest Common Divisor
+    cout << "最小公倍数：" << m / b << endl;// hcf Highest Common Factor
     
     return 0;
 }

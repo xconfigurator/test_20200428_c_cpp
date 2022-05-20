@@ -12,7 +12,7 @@
  * 如
  * 220的全部因子（不包括220）之和：1 + 2 + 4 + 5 + 10 + 11 + 20 + 22 + 44 + 55 + 110 = 284
  * 284的全部因子（不包括284）之和：1 + 2 + 4 + 71 + 142 = 220
- * 故220和284为秦秘书。
+ * 故220和284为亲密数。
  * 求：10000以内的亲密数。
  */
 #include <iostream>
@@ -20,7 +20,7 @@ using namespace std;
 
 int main(int argc, char const *argv[]) {
     int i, j, k, sum1, sum2;
-    for (int i = 1; i<= 10000; ++i) {
+    for (int i = 1; i <= 10000; ++i) {
         sum1 = sum2 = 0;
 
         for (j = 1; j < i; ++j) 
@@ -30,8 +30,13 @@ int main(int argc, char const *argv[]) {
         for (k = 1; k < sum1; ++k)
             if (sum1 % k ==0)
                 sum2 += k;
-        if (sum2 == i && i != sum1) 
-            cout << i << endl;        
+        if (sum2 == i && i != sum1) { 
+            //cout << i << endl;     
+            cout << "i = " << i 
+                << " sum1 = " << sum1 
+                << " sum2 = " << sum2 
+                << endl;
+        }   
     }
     return 0;
 }
