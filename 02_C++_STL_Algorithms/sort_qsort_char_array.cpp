@@ -1,10 +1,11 @@
 /*
 qsort string
 https://www.bilibili.com/video/BV1Ty4y1n7JH?p=7&spm_id_from=pageDriver
+天勤 见网盘
 */
 #include <stdio.h>
-#include <stdlib.h>
-#include <cstring>
+#include <stdlib.h> // qsort
+#include <cstring>  // strcmp
 int cmp(const void *a, const void *b) {
     // 提取
     char *L = *((char**) a);

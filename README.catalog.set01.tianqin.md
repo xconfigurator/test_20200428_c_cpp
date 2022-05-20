@@ -50,10 +50,16 @@
 201. 排序(排序函数的使用)  
 >[qsort](https://docs.microsoft.com/zh-cn/cpp/c-runtime-library/reference/qsort?view=msvc-160)
     (int | double | char | string | struct)  
+    示例汇总
+    02_C++_STL_Algorithms/sort_qsort*
+    02_C++_STL_Algorithms/sort_sort*
+    小结（liuyang 202205201523）：
+        STL提供的sort更简洁，推荐。
+        若要串联C语法，如指针、函数指针、结构体、结构体数组、比较函数（符号函数）等概念，则用qsort做练习是个很好的综合。
 >[sort](https://en.cppreference.com/w/cpp/algorithm/sort)  
 - [List Sorting](https://pintia.cn/problem-sets/994805342720868352/problems/994805468327690240)  
-    pat_advanced_level/1028.cpp
-
+    pat_advanced_level/1028.cpp 22:37
+    
 202. 散列
 - [输出PATest](https://pintia.cn/problem-sets/994805260223102976/problems/994805280074743808)  
     pat_basic_level/1043.cpp
@@ -85,8 +91,8 @@
     pat_advanced_level/1069.cpp
 
 302. 最大公约数与最小公倍数 (高频考点)
-- 00_Algorithms/oj_tq/math_gcd.cpp
-- 00_Algorithms/oj_tq/math_lcm.cpp
+- 00_Algorithms/recite/math_gcd.cpp
+- 00_Algorithms/recite/math_lcm.cpp
 
 303. 分数的四则运算  
 - [有理数四则运算](https://pintia.cn/problem-sets/994805260223102976/problems/994805287624491008)  
@@ -101,7 +107,7 @@
 - 表示，+，-
 306. 大整数运算2  
 - *，/  
-    00_Algorithms/oj_tq/big_integer.cpp
+    00_Algorithms/recite/big_integer.cpp
 
 
 ## 04. 数据结构专题1
@@ -220,3 +226,4 @@
 # 附录
 >20211205 codeup已经无法访问了。貌似是这个网站已经彻底不存在了。  
 >20211205 杭电OJ也无法访问。
+>20220520 杭电OJ已可访问

@@ -1,6 +1,7 @@
 /*
-sort 排字符数组 必须提供cmp 邹泽sort不知道如何排序
+sort 排字符数组 必须提供cmp 否则sort不知道如何排序
 https://www.bilibili.com/video/BV1Ty4y1n7JH?p=7&spm_id_from=pageDriver
+天勤 见网盘
 */
 #include <iostream>
 #include <algorithm>
@@ -9,8 +10,8 @@ using namespace std;
 
 bool cmp (const char* s1, const char *s2) {
     int a = strcmp(s1, s2);
-    // 升序
-    if (a < 0) {
+    // 升序(这里可验证之前的判断：sort和qsort接收的cmp“方向”是反的！)
+    if (a < 0) {// a > 0 即可变为降序
         return true;
     } else {
         return false;

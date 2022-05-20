@@ -1,6 +1,7 @@
 /*
 sort struct
 https://www.bilibili.com/video/BV1Ty4y1n7JH?p=7&spm_id_from=pageDriver
+天勤 见网盘
 */
 #include <iostream>
 #include <algorithm>
@@ -13,7 +14,7 @@ struct structTest {
 };
 
 bool cmp (const structTest& st1, const structTest& st2) {
-    return st1.a < st2.a;
+    return st1.a < st2.a;// 看<方向就可以看出是升序，很直观，不再绕弯子。
 }
 
 int main() {

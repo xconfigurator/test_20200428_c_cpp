@@ -48,8 +48,8 @@ Sample Output 3:
 000010 Amy 90
 */
 #include <iostream>
-#include <string.h>
-#include <algorithm>
+#include <string.h>     // strcmp
+#include <algorithm>    // sort
 using namespace std;
 
 const int MAX_SIZE = 100000;
@@ -60,10 +60,12 @@ struct record {
     int grade;
 };
 
+// if C = 1 then the records must be sorted in increasing order according to ID's;
 bool cmp1(const record& L, const record& R) {
     return L.ID < R.ID;
 }
 
+// if C = 2 then the records must be sorted in non-decreasing order according to names; 
 bool cmp2(const record& L, const record& R) {
     int r = strcmp(L.name, R.name);
     if (r == 0) {
@@ -77,6 +79,7 @@ bool cmp2(const record& L, const record& R) {
     }
 }
 
+// if C = 3 then the records must be sorted in non-decreasing order according to grades. If there are several students who have the same name or grade, they must be sorted according to their ID's in increasing order.
 bool cmp3(const record& L, const record& R) {
     if (L.grade == R.grade) {
         return L.ID < R.ID;
@@ -102,6 +105,8 @@ int main() {
         for (int i = 0; i < n; ++i) {
             // 固定输出6位高位填0
             printf("%06d %s %d\n", records[i].ID, records[i].name, records[i].grade);
+            //printf("%0*d %s %d\n", 6, records[i].ID, records[i].name, records[i].grade);// 20220520 ok
+            //printf("%0*d %s %d\n", 10, records[i].ID, records[i].name, records[i].grade);// 20220520 ok
         }
     }
     return 0;
