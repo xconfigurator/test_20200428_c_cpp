@@ -34,7 +34,7 @@ const unsigned int MAX_SIZE = 200;
 int main() {
     int n, x;
     int array[MAX_SIZE];
-    while (cin >> n) {
+    while (cin >> n) {// while(scanf("%d", &n) != EOF)
         for (int i = 0; i < n; ++i) {
             cin >> array[i];
         }

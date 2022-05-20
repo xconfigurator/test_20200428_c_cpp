@@ -32,7 +32,7 @@ using namespace std;
 int months[13][2] {
     {0, 0},
     {31, 31},
-    {28, 29},
+    {28, 29},// 平年2月 闰年2月
     {31, 31},
     {30, 30},
     {31, 31},
@@ -47,9 +47,9 @@ int months[13][2] {
 
 int isLeap(int year) {
     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0) ) {
-        return 1;
+        return 1;// 闰年的列号
     } else {
-        return 0;
+        return 0;// 平年的列号
     }
 }
 
