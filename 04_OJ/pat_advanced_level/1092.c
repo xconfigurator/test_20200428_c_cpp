@@ -9,9 +9,8 @@ https://www.bilibili.com/video/BV1Ty4y1n7JH?p=8
 题目：
 https://pintia.cn/problem-sets/994805342720868352/problems/994805374509498368
 
-说明：
+说明：使用hash思想
 本实现代码使用gets，注意在pat提交时使用c编译器。
-
 
 Sample Input 1:
 ppRYYGrrYBR2258
@@ -30,7 +29,7 @@ No 2
 #include <stdio.h>
 
 int main() {
-    int counts[123] = {0};
+    int counts[123] = {0};// 数组长度要超过待统计字符的ASCII最大值。
     char seller[1001];
     char littleRed[1001]; // Eva == 小红 嘿嘿
     gets(seller);

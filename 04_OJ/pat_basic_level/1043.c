@@ -17,11 +17,13 @@ PATestPATestPTetPTePePee
 */
 #include <stdio.h>
 
-const int MAX_SIZE = 10001;
+//const int MAX_SIZE = 10001;
+#define MAX_SIZE 10001
 
 int main () {
     char s[MAX_SIZE];
-    int count[200] = {};
+    //int count[200] = {};// C会标红
+    int count[200] = {0};
     char dic[] = "PATest";
     gets(s);
     // hash
