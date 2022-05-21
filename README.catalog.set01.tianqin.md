@@ -47,7 +47,7 @@
 
 
 ## 02. 算法初步
-201. 排序(排序函数的使用)  
+201. 排序(排序函数的使用 复习一下C/C++语法)  
 >[qsort](https://docs.microsoft.com/zh-cn/cpp/c-runtime-library/reference/qsort?view=msvc-160)
     (int | double | char | string | struct)  
     示例汇总
