@@ -98,7 +98,7 @@
 - [有理数四则运算](https://pintia.cn/problem-sets/994805260223102976/problems/994805287624491008)  
     pat_basic_level/1034.cpp
 
-304. 素数 (出了1和本身之外，不能被其他整数整除的一类数。 规定1不是素数。)  
+304. 素数 (除了1和本身之外，不能被其他整数整除的一类数。 规定1不是素数。)  
 >[Eratosthenes筛法](https://www.bilibili.com/video/BV1Ty4y1n7JH?p=15&spm_id_from=pageDriver)  
 - [数素数](https://pintia.cn/problem-sets/994805260223102976/problems/994805309963354112)  
     pat_basic_level/1013.cpp

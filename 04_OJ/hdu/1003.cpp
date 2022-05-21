@@ -4,6 +4,7 @@
  * @brief 分治算法练习 Max Sum
  * 
  * 题目：杭电OJ 1003
+ * http://acm.hdu.edu.cn/showproblem.php?pid=1003
  * 
  * 说明：跟浙大陈越老师讲的一样。不过辉总给出了代码！
  * OJ状态： OJ目前无法访问，第二组结果输出与预期不同。
@@ -28,6 +29,7 @@ Case 2:
 #include<iostream>
 using namespace std;
 
+// 求跨越分隔线的最大子列值
 void getCrossMax(int arr[], int &L, int &mid, int &R, int &max) {// mid没有必要使用引用型
     int maxCross = 0, maxL = -1001, maxR = -1001, l = mid, r = mid + 1;// maxCross用于分别计算左右两边最大的值
     for (int i = mid; i >= L; --i) {
@@ -39,7 +41,8 @@ void getCrossMax(int arr[], int &L, int &mid, int &R, int &max) {// mid没有必
     }
     for (int i = mid + 1, maxCross = 0; i <= R; ++i) {
         maxCross += arr[i];
-        if (maxCross >= maxR) {
+        //if (maxCross >= maxR) {
+        if (maxCross > maxR) {// 20220521 实测 问题并不在这里。
             r = i;
             maxR = maxCross;
         }
@@ -49,7 +52,9 @@ void getCrossMax(int arr[], int &L, int &mid, int &R, int &max) {// mid没有必
     R = r;
 }
 
-void getMax(int arr[], int &L, int &R, int &max) {
+// 分治
+// 比较 分隔线左 vs 跨域分隔线 vs 分隔线右
+ void getMax(int arr[], int &L, int &R, int &max) {
     if (L < R) {
         int l = L, r = R, maxL, maxR, maxCross;
         int m = (L + R) / 2;
@@ -77,7 +82,7 @@ void getMax(int arr[], int &L, int &R, int &max) {
         L = tempL;
         R = tempR;
     } else {
-        max = arr[L];// 递归出口
+        max = arr[L];// 递归出口 L == R
     }
 }
 
@@ -94,7 +99,7 @@ int main(int argc, char const *argv[]) {
         R = m;
         getMax(a, L, R, max);
         cout << "Case "<< j++ << ":\n" << max << " " << L << " " << R << endl;
-        if (n != 0) cout << endl;
+        if (n != 0) cout << endl;// 格式要求：每两个结果之间输出一个空行。
     }
     return 0;
 }
