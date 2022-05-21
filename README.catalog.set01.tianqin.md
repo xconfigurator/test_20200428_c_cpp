@@ -76,7 +76,8 @@
 204. 贪心 
 - [组个最小数](https://pintia.cn/problem-sets/994805260223102976/problems/994805298269634560)
     pat_basic_level/1023.cpp
-- 区间贪心的典型例题  3:53开始
+- [今年暑假不AC](http://acm.hdu.edu.cn/showproblem.php?pid=2037)
+    区间贪心的典型例题  3:53开始
     hdu/2037.cpp
 
 205. 二分
