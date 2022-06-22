@@ -11,7 +11,7 @@ using namespace std;
 
 int main() {
     int a, b;
-    ios::sync_with_stdio(false);// 加速cin/cout
+    ios::sync_with_stdio(false);// 加速cin/cout 根据天勤测试，在杭电OJ上可提速一倍。31ms / 15ms
     while (cin >> a >> b) {
         cout << a + b << endl;
     }

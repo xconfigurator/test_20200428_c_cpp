@@ -45,7 +45,7 @@ int main(int argc, char const *argv[]) {
 	for (int i = 0; i <= 9; ++i) {
 		s[i] = '\0';
 	}
-	//gets_s(s);// 空格也会包括进来。
+	//gets_s(s);// 空格也会包括进来。但不接收回车。
 	scanf("%s", s);// 只接收空格之前的。
 	for (int i = 0; i <= 6; ++i) {
 		cout << i << ":" << (int)s[i] << endl;
