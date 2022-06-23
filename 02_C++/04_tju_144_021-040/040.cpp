@@ -11,36 +11,26 @@
 #include <iostream>
 using namespace std;
 
-class AA {
-public:
-    AA(int i, int j) {
-        A = i;
-        B = j;
-        cout << "Constructing(" << A << "," << B << ").\n";
-    }
-    ~AA() {
-        cout << "Dconstructing(" << A << "," << B << ").\n";
-    }
-    void print() {
-        cout << A << "," << B << endl;
-    }
+class value {
 private:
-    int A, B;
+    int a;
+public:
+    value(int i = 1) {
+        a = i;
+    }
+    void list() {
+        cout << a << " ";
+    }
 };
 
+value data1[4];
+value data2[4] = {10, 20, 30};
+
 int main(int argc, char const *argv[]) {
-    AA *a1, *a2;
-    AA a3(3, 4), a4(7, 8);
-    a1 = new AA(1, 2);
-    a2 = new AA(5, 6);
-
-    a1->print();
-    a3.print();
-    a2->print();
-    a4.print();
-
-    delete a1;
-    delete a2;
-    
+    for (int i = 0; i < 4; i++) {
+        data1[i].list();
+        data2[i].list();
+        cout << endl;
+    }
     return 0;
 }
