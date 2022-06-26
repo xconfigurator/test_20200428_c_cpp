@@ -22,4 +22,4 @@ int main(int argc, char const *argv[]) {
     return 0;
 }
 
-// 最大公约数！
+// 078 背 最大公约数！
