@@ -13,3 +13,25 @@
  */
 #include <iostream>
 #include <cstdio>
+//#include <stdio.h>
+using namespace std;
+
+int main(int argc, char const *argv[]) {
+    char str[100];
+    int i, word = 1;
+    char blank;
+    gets_s(str);// 原文用的是gets
+
+    if (str[0] == '\0') {
+        cout << "There is no words";
+    } else if (str[0] == ' ') {
+        cout << "There is jus a blank!";
+    } else {
+        for (i = 0; str[i] != '\0'; ++i) {
+            blank = str[i];
+            if (blank == ' ') ++word;
+        }
+        cout << "There are " << word << " words!" << endl;
+    }
+    return 0;
+}
