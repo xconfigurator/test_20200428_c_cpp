@@ -41,6 +41,7 @@ int main(int argc, char const *argv[]) {
         char s[1005];
         //scanf("%s", s);
         gets(s);// g++环境 虽然VSCode会报错，但运行没问题。
+        //gets_s(s);// 纯粹为了VSCode不报错，运行时换回gets(s)
         for (i = 0; i <= strlen(s); i++) {
             if (s[i] == '\0' || s[i] == ' ') {
                 for (int k = i - 1; k > j; k--, j++) {
