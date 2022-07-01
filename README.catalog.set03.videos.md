@@ -40,7 +40,7 @@
 [Josephus](https://www.bilibili.com/video/BV1so4y1o7KJ?p=1&vd_source=8bd7b24b38e3e12c558d839b352b32f4)
 [Josephus](https://www.bilibili.com/video/BV1Yt41197sM?p=83)  
 [Permutation](https://www.bilibili.com/video/BV1Yt41197sM?p=83)
-[Permutation]https://www.bilibili.com/video/BV1Yt41197sM?p=83)
+[Permutation](https://www.bilibili.com/video/BV1Yt41197sM?p=83)
 
 
 - 基本工具  
