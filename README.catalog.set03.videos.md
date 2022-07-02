@@ -16,20 +16,22 @@
 
 - Graph::BFS  
 [八数码（北大 程序设计与算法 二）](https://www.bilibili.com/video/BV1Zb411q7iY?p=44&vd_source=8bd7b24b38e3e12c558d839b352b32f4)
+[二叉树打印（二叉树程序遍历）](https://www.bilibili.com/video/BV1N4411p7v7?p=1)
 
 
 - Graph::DFS  
 [寻路问题（北大 程序设计与算法 二）](https://www.bilibili.com/video/BV1Zb411q7iY?p=39&vd_source=8bd7b24b38e3e12c558d839b352b32f4)
 
 
-- 贪心  
-[圣诞老人的礼物（北大 程序设计与算法 二）](https://www.bilibili.com/video/av45109397?p=45&vd_source=8bd7b24b38e3e12c558d839b352b32f4)
-
-
 - Graph::Dijkstra  
+> 《程序设计基础》Dijkstra（清华 wuxj）  
+
 [Dijkstra（浙大）](https://www.bilibili.com/video/BV1JW411i731?p=82&vd_source=8bd7b24b38e3e12c558d839b352b32f4)  
 [Dijkstra（灯笼）](https://www.bilibili.com/video/BV1ts41157Sy/?spm_id_from=333.788.recommend_more_video.-1&vd_source=8bd7b24b38e3e12c558d839b352b32f4)  
-> 《程序设计基础》Dijkstra（清华）
+
+
+- 贪心  
+[圣诞老人的礼物（北大 程序设计与算法 二）](https://www.bilibili.com/video/av45109397?p=45&vd_source=8bd7b24b38e3e12c558d839b352b32f4)
 
 
 - 枚举  
@@ -39,16 +41,13 @@
 - 模拟  
 [Josephus](https://www.bilibili.com/video/BV1so4y1o7KJ?p=1&vd_source=8bd7b24b38e3e12c558d839b352b32f4)  
 [Josephus](https://www.bilibili.com/video/BV1Yt41197sM?p=83)  
-[Permutation](https://www.bilibili.com/video/BV1so4y1o7KJ?p=1&vd_source=8bd7b24b38e3e12c558d839b352b32f4)  
-[Permutation](https://www.bilibili.com/video/BV1Yt41197sM?p=83)
-
 
 - 排列
 [排列 Algo STL](https://www.bilibili.com/video/BV1554y1R7RW?from=search&seid=15752728863264297471)  
 [排列 正月点灯笼](https://www.bilibili.com/video/BV1dx411S7WR)
 [排列 全排列](https://www.bilibili.com/video/BV1Fy4y1i7D5?from=search&seid=8089310972890213058)
-[排列 Next 宰相小甘罗](https://www.bilibili.com/video/BV1DV411v7MM?from=search&seid=3861083446882188060&spm_id_from=333.337.0.0)
-[排列 Next 米开](https://www.bilibili.com/video/BV15t411374P?from=search&seid=3861083446882188060&spm_id_from=333.337.0.0)
+[排列 Next 宰相小甘罗（模拟）](https://www.bilibili.com/video/BV1DV411v7MM?from=search&seid=3861083446882188060&spm_id_from=333.337.0.0)
+[排列 Next 米开（模拟）](https://www.bilibili.com/video/BV15t411374P?from=search&seid=3861083446882188060&spm_id_from=333.337.0.0)
 
 
 - 基本工具  
