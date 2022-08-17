@@ -12,7 +12,9 @@
  */
 #include <stdio.h>
 #include <cstdlib>
-#define ElementType int
+
+//#define ElementType int
+typedef int ElementType;
 
 typedef struct Node *PtrToNode;
 struct Node {
