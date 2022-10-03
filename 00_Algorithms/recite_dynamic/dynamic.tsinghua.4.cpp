@@ -1,7 +1,7 @@
 /**
  * @file dynamic.tsinghua.4.cpp
  * @author your name (you@domain.com)
- * @brief 
+ * @brief 最长公共子序列问题
  * 清华 程序设计基础 动态规划实例 - 4 邬晓钧
  * 
  * @version 0.1

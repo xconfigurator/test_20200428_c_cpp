@@ -11,7 +11,9 @@
 [1. 动态规划例题（清华 程序设计基础）兔子数列问题](https://www.xuetangx.com/learn/THU08091000270/THU08091000270/10322319/video/17398614?channel=i.area.manual_search)  
 [2. 动态规划例题（清华 程序设计基础）分鱼问题](https://www.xuetangx.com/learn/THU08091000270/THU08091000270/10322319/video/17398620?channel=i.area.manual_search)  
 [3. 动态规划例题（清华 程序设计基础）橱窗插画问题](https://www.xuetangx.com/learn/THU08091000270/THU08091000270/10322319/video/17398628?channel=i.area.manual_search)  
-[4. 动态规划例题（清华 程序设计基础）最长公共子序列问题](https://www.xuetangx.com/learn/THU08091000270/THU08091000270/10322319/video/17398651?channel=i.area.manual_search) 
+[4. 动态规划例题（清华 程序设计基础）最长公共子序列问题](https://www.xuetangx.com/learn/THU08091000270/THU08091000270/10322319/video/17398651?channel=i.area.manual_search)   
+[5.1. 最长上升子序列（罗斯）](https://www.bilibili.com/video/BV1AB4y1w7eT?spm_id_from=333.999.0.0&vd_source=8bd7b24b38e3e12c558d839b352b32f4)
+[5.2. 最长上升子序列（北大郭炜）](http://www.icourse163.org/learn/PKU-1001894005?tid=1002445041#/learn/content?type=detail&id=1003305231)
 
 
 - Graph::BFS  
@@ -41,6 +43,7 @@
 - 模拟  
 [Josephus](https://www.bilibili.com/video/BV1so4y1o7KJ?p=1&vd_source=8bd7b24b38e3e12c558d839b352b32f4)  
 [Josephus](https://www.bilibili.com/video/BV1Yt41197sM?p=83)  
+
 
 - 排列
 [排列 Algo STL](https://www.bilibili.com/video/BV1554y1R7RW?from=search&seid=15752728863264297471)  
