@@ -51,7 +51,7 @@ int main(int argc, char const *argv[]) {
     pDyna->x = 11;
     pDyna->y = 22;
     showPoint(pDyna);
-    if (pDyna != NULL) {
+    if (pDyna != NULL) {0
         free(pDyna);
     }
 
