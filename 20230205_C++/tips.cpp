@@ -1,10 +1,12 @@
 /**
  * @file tips.cpp
  * @author your name (you@domain.com)
+ * 
+ * C++ 刷题常用技巧
  * https://www.bilibili.com/video/BV1pv4y1w7GY/?spm_id_from=333.788&vd_source=8bd7b24b38e3e12c558d839b352b32f4
  * https://www.yuque.com/jackyao/ifeq8i/vyigt9?#%20%E3%80%8AC/C++%E5%88%B7%E9%A2%98%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7%E3%80%8B
  * 
- * @brief 
+ * @brief C++ 刷题常用技巧
  * @version 0.1
  * @date 2023-02-05
  * 

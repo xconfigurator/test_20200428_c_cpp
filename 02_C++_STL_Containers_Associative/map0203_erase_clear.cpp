@@ -2,6 +2,7 @@
  * @file map0203_erase_clear.cpp
  * @author liuyang
  * @brief 
+ * https://www.bilibili.com/video/BV1et411b73Z?p=233&spm_id_from=pageDriver&vd_source=8bd7b24b38e3e12c558d839b352b32f4
  * 
  * insert(elem);            // 在容器中插入元素（pair）
  * clear();                 // 清除所有元素
@@ -28,11 +29,16 @@ void printMap(const map<string, string>& m) {
 
 map<string, string> getTestMap() {
     map<string, string> m1;
-    m1.insert(make_pair("k1", "v1"));
-    m1.insert(make_pair("k2", "v2"));
-    m1.insert(pair<string, string>("k3", "v3"));
-    m1.insert(make_pair("k4", "v4"));
-    m1["k5"] = "v5";
+    
+    m1.insert(make_pair("k1", "v1"));// 推荐
+    
+    m1["k2"] = "v2";// 看看得了（不建议这样插入）
+    m1.insert(pair<string, string>("k3", "v3"));// 看看得了
+    m1.insert(map<string, string>::value_type("k4", "v4"));// 看看得了 
+    
+    m1.insert(make_pair("k5", "v5"));
+    m1.insert(make_pair("k6", "v6"));
+    
     return m1;
 }
 

@@ -5,9 +5,10 @@
 04. [C语言中文网教程](http://c.biancheng.net/stl/)
 
 ### 使用最多
-1. vector
-2. list
-3. map
+1. string
+2. vector
+3. set
+4. map
 
 #### string
 1. 郭炜
