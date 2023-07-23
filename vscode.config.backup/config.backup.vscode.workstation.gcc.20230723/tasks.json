@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "g++.exe build active file",
+      "command": "C:\\Program Files\\CodeBlocks\\MinGW\\bin\\g++.exe",
+      "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        // liuyang 202003231809 add begin
+        // liuyang 202307211623 从c++11改为c++14，这个是gcc 4.9能支持的最高版本。
+        "-std=c++14"
+        // liuyang 202003231809 add end
+      ],
+      "options": {
+        "cwd": "C:\\Program Files\\CodeBlocks\\MinGW\\bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": "build"
+    }
+  ]
+}
