@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "g++.exe build active file",
+      "command": "C:\\Program Files\\CodeBlocks\\MinGW\\bin\\g++.exe",
+      "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        // liuyang 202003231809 add begin
+        // https://gcc.gnu.org/projects/cxx-status.html
+        // GCC 4.8.1 was the first feature-complete implementation of the 2011 C++ standard, previously known as C++0x.
+        // liuyang 202307211623 从c++11改为c++14，这个是gcc 4.9（Dev-C++ 5.11带的编译链TDM-GCC 4.9.2）能支持的最高版本。
+        // liuyang 202308040949 从c++14改为c++17，这个是gcc 8.1（CodeBlocks 20.03带的编译链）能支持的最高版本。
+        "-std=c++17"
+        // liuyang 202003231809 add end
+      ],
+      "options": {
+        "cwd": "C:\\Program Files\\CodeBlocks\\MinGW\\bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": "build"
+    }
+  ]
+}
