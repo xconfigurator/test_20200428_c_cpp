@@ -10,7 +10,7 @@ using namespace std;
 
 bool cmp (const char* s1, const char *s2) {
     int a = strcmp(s1, s2);
-    // 升序(这里可验证之前的判断：sort和qsort接收的cmp“方向”是反的！)
+    // 升序
     if (a < 0) {// a > 0 即可变为降序
         return true;
     } else {
@@ -26,6 +26,9 @@ int main () {
         "new",
         "world"
     };
+    /*char *word[] = {
+        "a", "b", "c", "d", "e"
+    };*/
     sort(word, word + 5, cmp);
     for (int i = 0; i < 5; ++i) {
         cout << word[i] << " ";

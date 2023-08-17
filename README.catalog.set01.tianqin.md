@@ -69,7 +69,8 @@
 203. 分治  
 - 介绍分治算法 - 快速排序（2分钟讲完）  
 - [航电 OJ 题目 Max Sum](http://acm.hdu.edu.cn/showproblem.php?pid=1003)貌似就是最大子列和  
-    hdu/1003.cpp
+    hdu/1003.cpp   
+    
 - 补: [浙大DS 最大子列和的各种算法讲解](https://www.bilibili.com/video/BV1JW411i731?p=8)  
 - 补: [Tree Traversals](https://pintia.cn/problem-sets/994805342720868352/problems/994805485033603072)  记录见“二叉树1”
 
@@ -116,6 +117,7 @@
 - 栈的极简实现（值得听，一道经典的C语法习题。）  
 - [Pop Sequence](https://pintia.cn/problem-sets/994805342720868352/problems/994805427332562944)  
     04_OJ/pat_advanced_level/1051.cpp  
+
 - 补：浙大何钦铭老师讲解的栈的例子。  
 - 补: imooc  
     00_Algorithms/recite_essential_tools/Stack01Conversion.cpp  
@@ -129,7 +131,8 @@
 - 队列的测试代码 
     02_C++_STL/queue02.cpp
 - [Mice and Rice](https://pintia.cn/problem-sets/994805342720868352/problems/994805419468242944)     
-    04_OJ/pat_advanced_level/1056.cpp
+    04_OJ/pat_advanced_level/1056.cpp  
+
 - 补：LeetCode 933
     04_OJ/leetcode_70/LC933.cpp
     
@@ -137,7 +140,8 @@
 - 链表的定义（值得听，各种定义方法总结）00:00 - 05:12  
     01_DataStructure/List.md
 - [Sharing](https://pintia.cn/problem-sets/994805342720868352/problems/994805460652113920) 05:12  
-    04_OJ/pat_advanced_level/1032.cpp
+    04_OJ/pat_advanced_level/1032.cpp  
+
 - 补：[LeetCode 203 删除链表的元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)
     04_OJ/leetcode_70/LC203.cpp 
 - 补：[LeetCode 206 链表逆转](https://leetcode-cn.com/problems/reverse-linked-list/)
@@ -188,6 +192,10 @@
 503. 生成树 10分钟  
 - [畅通工程](http://acm.hdu.edu.cn/showproblem.php?pid=1232)  
     04_OJ/hdu/1232.cpp 并查集（背！）  
+
+504. 生成树（最小生成树）
+- [Constructing Roads](http://acm.hdu.edu.cn/showproblem.php?pid=1102)
+    04_OJ/hdu/1102.cpp MST Kruskal（背！）
 
 # 补充1
 1. 数组
