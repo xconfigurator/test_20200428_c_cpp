@@ -7,5 +7,6 @@ using namespace std;
 int main(int argc, char const *argv[]) {
   cout << "hello, world 2" << endl;
   // std::system("pause");
+  cout << __cplusplus << endl;
   return 0;
 }
