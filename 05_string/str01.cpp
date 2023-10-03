@@ -44,10 +44,10 @@ int main(int argc, char const *argv[]) {
     char response[100];
     cout << "What's the name of the prison in" << title << endl;
     cin >> prisonName;
-    if (strcmp(prisonName, "Fox-River") == 0) {
+    if (strcmp(prisonName, "Fox-River") == 0) {// strcmp
         cout << "Yeah! Do you love" << hero << endl;
     } else {
-        strcpy(response, "It seems you haven't watched it!\n");
+        strcpy(response, "It seems you haven't watched it!\n");// strcpy
         cout << response;
     }
     title[0] = 't';

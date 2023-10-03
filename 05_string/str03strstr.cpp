@@ -24,7 +24,7 @@ using namespace std;
 
 // 郭炜写法
 int Strstr(char s1[], char s2[]) {
-    if (s2[0] == 0) return 0;
+    if (s2[0] == 0) return 0;           // 判断s2是否是空串
     
     for (int i = 0; s1[i]; ++i) {       // 枚举比较起点 （liuyang:记住这骚气的写法! 串里有0也不挂。0的ASCII可不是0， 0的ASCII是48）
         int k = i, j = 0;               // k用于记录当前检查字串的起始位置
