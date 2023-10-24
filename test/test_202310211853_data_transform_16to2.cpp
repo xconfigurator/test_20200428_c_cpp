@@ -1,6 +1,3 @@
-// TODO
-// 
-
 /**
  * @file test_202310211853_data_transform_16to2.cpp
  * @author your name (you@domain.com)
