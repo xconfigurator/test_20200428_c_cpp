@@ -11,6 +11,7 @@
  * https://www.bilibili.com/video/BV1et411b73Z?p=232&spm_id_from=pageDriver&vd_source=8bd7b24b38e3e12c558d839b352b32f4
  * @version 0.1
  * @date 2021-12-14
+ *       2023-10-31 增加了遍历中使用C++ 17 结构化绑定特性示例。
  * 
  * @copyright Copyright (c) 2021
  * 
@@ -20,8 +21,14 @@
 using namespace std;
 
 void printMap(const map<string, string>& m) {
-    for (auto cpair : m) {
+    // C++ 11 增强for循环
+    /*for (auto cpair : m) {
         cout << "[" << cpair.first << "," << cpair.second << "]" << endl;
+    }*/
+    // C++ 17 结构化绑定 structured bindings
+    for (auto [key, val] : m) {
+        //cout << "[" << cpair.first << "," << cpair.second << "]" << endl;
+        cout << "[" << key << "," << val << "]" << endl;
     }
     cout << endl;
 }
