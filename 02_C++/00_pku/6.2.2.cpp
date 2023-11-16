@@ -116,25 +116,25 @@ int main(int argc, char const *argv[]) {
     CTriangle *pt;
     cin >> n;
     for (int i = 0; i < n; ++i) {
-    char c;
-    cin >> c;
-    switch (c) {
-    case 'R': // 矩形
-        pr = new CRectangle();
-        cin >> pr->w >> pr->h;
-        pShapes[i] = pr;
-        break;
-    case 'C': // 圆形
-        pc = new CCircle();
-        cin >> pc->r;
-        pShapes[i] = pc;
-        break;
-    case 'T': // 三角形
-        pt = new CTriangle();
-        cin >> pt->a >> pt->b >> pt->c;
-        pShapes[i] = pt;
-        break;
-    }
+        char c;
+        cin >> c;
+        switch (c) {
+        case 'R': // 矩形
+            pr = new CRectangle();
+            cin >> pr->w >> pr->h;
+            pShapes[i] = pr;
+            break;
+        case 'C': // 圆形
+            pc = new CCircle();
+            cin >> pc->r;
+            pShapes[i] = pc;
+            break;
+        case 'T': // 三角形
+            pt = new CTriangle();
+            cin >> pt->a >> pt->b >> pt->c;
+            pShapes[i] = pt;
+            break;
+        }
     } // end of for
     qsort(pShapes, n, sizeof(CShape *), MyCompare);
     for (int i = 0; i < n; ++i) {
