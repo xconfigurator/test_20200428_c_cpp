@@ -28,6 +28,18 @@ int main() {
     void stdstring();
     stdstring();
 
+    // liuyang 202311040614 add C++ 11 Raw string literal R"()"
+    cout << "# C++ 11 Raw String Literal ################" << endl;
+    string block = R"(
+        <div>
+            <span>C++ 11 也可以写文本块了！</span>
+        </div>
+    )";
+    cout << block << endl;
+    // Java JDK15+ """ XXXXXX """
+    // https://www.runoob.com/python3/python3-string.html
+    // Python ''' xxxxxx '''
+
 
     return 0;
 }
@@ -51,6 +63,11 @@ void initchar() {
 
     char name[10] = {'Y', 'u', '\0', 'S', '.', '0'};
     cout << strlen(name) << endl;
+
+    // String Literals 常量字符串
+    char name1[] = "Southen University of Science and Technology";
+    char name2[] = "Southen University of " "Science and Technology";
+    char name3[] = "ABCD";// how many bytes for the array? 答：数组长度是5
 }
 
 // stringop.cpp
@@ -68,21 +85,22 @@ void stringop() {
         cout << i << ":" << +str1[i] << "(" << str1[i] << ")" << endl;
     }
 
-    strcpy(result, str1);
+    // 操作示例
+    strcpy(result, str1);// strncpy
     cout << "Result = " << result << endl;
-    strcat(result, str2);
+    strcat(result, str2);// strncat
     cout << "Result = " << result << endl;
     cout << "strcmp() = " << strcmp(str1, str2) << endl;
 
     //
-    const wchar_t s1[] = L"ABCD";
+    const wchar_t s1[] = L"ABCD试试中文";
     //const char8_t s2[] = u8"ABCD"; // since C++20
     const char16_t s3[] = u"ABCD"; // since C++11
     const char32_t s4[] = U"ABCD"; // since C++11
-
+    cout << "wchar_t " << s1 << endl; 
 }
 
-// stdstring.cpp
+// stdstring.cpp 20:08
 // string类并不会越界检查！！！！
 void stdstring() {
     cout << "# stdstring.cpp #####################" << endl;
@@ -99,4 +117,15 @@ void stdstring() {
     // std::u8string // C++20
     // std::u16string // C++11
     // std::u32string // C++11
+
+    std::string l1  = "测试中文";
+    cout << l1 << endl;
+    /* 这里的有问题， 以后有时间了再查
+    std::wstring l2 = L"测试中文";
+    cout << l2 << endl;
+    std::u16string l3 = u"测试中文";
+    cout << l3 << endl;
+    std::u32string l4 = U"测试中文";
+    cout << l4 << endl;
+    */
 }

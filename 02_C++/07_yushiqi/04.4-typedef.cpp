@@ -15,7 +15,8 @@ using namespace std;
 
 int main() {
     typedef int myint;
-    typedef unsigned char vec3b[3];
+    
+    typedef unsigned char vec3b[3];// vec3b是一个无符号整型且具有三个元素的数组。
 
     typedef struct _rgb_struct {// name _rgb_struct can be omit
         unsigned char r;

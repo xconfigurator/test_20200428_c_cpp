@@ -39,6 +39,7 @@ int main() {
 }
 
 void struct_c_style() {
+    cout << "# struct_c_style ###########################################" << endl;
     struct Student {
         char name[4];
         int born;
@@ -54,9 +55,14 @@ void struct_c_style() {
 
     printf("Student %s, born in %d, gender %s\n", stu.name, stu.born, stu.male ? "male" : "female");
     printf("Student %s, born in %d, gender %s\n", stu2.name, stu2.born, stu2.male ? "male" : "female");
+
+    // 结构体数组
+    struct Student students[100];
+    students[50].born = 2002;
 }
 
 void struct_padding() {
+    cout << "# struct_padding ###########################################" << endl;
     struct Student1 {
         int id;
         bool male;
@@ -80,6 +86,7 @@ void struct_padding() {
 }
 
 void union_demo() {
+    cout << "# union_demo ###########################################" << endl;
     union ipv4address {
         std::uint32_t address32;
         std::uint8_t address8[4];
@@ -103,15 +110,37 @@ void union_demo() {
     cout << "in hex " << ip.address32 << endl;
 }
 
-// 使用频率不是很高。但是要了解。
+// 使用频率不是很高。但是要了解。 16:53
 void enum_demo1() {
     cout << "# enum_demo1 ###########################################" << endl;
     enum color {WHITE, BLACK, RED, GREEN, BLUE, YELLOW, NUM_COLORS};
     enum color pen_color = RED;
-    pen_color = color(3);
-    cout << "We have " << NUM_COLORS << "pens." << endl;
+    pen_color = color(3);//GREEN
+    // pen_color = 3;// 编译报错
+    cout << "We have " << NUM_COLORS << "pens." << endl;// 小技巧
+    
+    // //////////////////////////////////////////////////////////////////////////
+    // C++11
+    // 注意，如果自己编码，可以考虑使用C++11的新的enum
+    // C++11 的枚举类 
+    // 1. 有效避免命名冲突
+    // 2. 不能够再隐式转换成整型
+    enum class Enum111 {
+        FOO
+        , BAR
+    };
+
+    enum class Enum112 {
+        FOO		// OK
+        , BAR	// OK
+    };
+        Enum111 enum111 = Enum111::FOO;
+    Enum112 enum112 = Enum112::BAR;
+    int numOld = YELLOW;// OK
+    //int num11 = Enum111::BAR;// 编译器直接报错
 }
 
+// 19:01
 // An example with struct, union and enum
 // enum.cpp
 // 表示一个三维世界的向量
@@ -126,7 +155,7 @@ struct Point {
     };
 };
 size_t datawidth(struct Point pt) {
-    return size_t(pt.type) * 3;
+    return size_t(pt.type) * 3;// size_t无符号整数
 }
 // l1范数
 int64_t l1norm(struct Point pt) {
