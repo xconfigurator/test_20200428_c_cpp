@@ -7,6 +7,7 @@ p72
 
 @author: liuyang copy from guowei
 @since: 2020/12/14
+        2023/11/17  NULL -> nullptr
 */
 
 #include <iostream>
@@ -18,7 +19,7 @@ class CArray {
     int *ptr;                               // 指向动态分配的数组
 public:
     CArray(int s = 0);                      // s代表数组元素的个数
-    CArray(CArray & a);                     // 复制构造函数（深拷贝, 通过复制构造函数与重载=运算符配合完成）
+    CArray(CArray & src);                   // 复制构造函数（深拷贝, 通过复制构造函数与重载=运算符配合完成）
     virtual ~CArray();                      // 清理！
     friend ostream & operator << (ostream & os, const CArray & a); // toString()
     CArray & operator = (const CArray & a); // 对象复制（深拷贝, 通过复制构造函数与重载=运算符配合完成）
@@ -40,36 +41,40 @@ public:
 // 12:26
 CArray::CArray(int s):size(s) {
     if (0 == s) {
-        ptr = NULL;
+        //ptr = NULL;
+        ptr = nullptr;// C++ 11 推荐写法 202311170519 
     } else {
         ptr = new int[s];
     }
 }
 
 // 13:12 
-CArray::CArray(CArray & a) {// 深拷贝
+CArray::CArray(CArray & src) {// 深拷贝
     // 对方空（两个等价写法）
-    // if (!a.ptr) {
-    if (NULL == a.ptr) {
-        ptr = NULL;
+    // if (!src.ptr) {
+    //if (NULL == src.ptr) {
+    if (nullptr == src.ptr) {// C++ 11 推荐写法 202311170519 
+        //ptr = NULL;
+        ptr = nullptr;// C++ 11 推荐写法 202311170519
         size = 0;
         return;
     }
     // 对方不空
-    ptr = new int[a.size];
-    memcpy(ptr, a.ptr, sizeof(int) * a.size);
-    size = a.size;
+    ptr = new int[src.size];
+    memcpy(ptr, src.ptr, sizeof(int) * src.size);
+    size = src.size;
 }
 
 // 16:02
 CArray::~CArray() {
-    if (ptr != NULL) {
+    //if (ptr != NULL) {
+    if (ptr != nullptr) {
         delete[] ptr;
     }
 }
 
 ostream & operator << (ostream & os, const CArray & a) {
-    if (0 == a.size || NULL == a.ptr) {
+    if (0 == a.size || nullptr == a.ptr) {
         return os;
     }
     for (int i = 0; i < a.size; ++i) {
@@ -85,18 +90,18 @@ CArray & CArray::operator = (const CArray & a) {// 深拷贝
         return *this;
     }
     // 对方空
-    if (NULL == a.ptr) {
-        if (ptr != NULL) {// 被赋值的对象之前有内容
+    if (nullptr == a.ptr) {
+        if (ptr != nullptr) {// 被赋值的对象之前有内容
             delete[] ptr;
         }
-        ptr = NULL;
+        ptr = nullptr;
         size = 0;
         return *this;
     }
     // 对方不空
     // 对方长度超过自己,则需要申请新的空间。（原有空间足够大，就不用分配新的空间）
     if (size < a.size) {
-        if (ptr != NULL) {
+        if (ptr != nullptr) {
             delete[] ptr;
         }
         ptr = new int[a.size];

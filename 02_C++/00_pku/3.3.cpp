@@ -18,10 +18,10 @@ class Demo {
 public:
     Demo(int i) {
         id = i;
-        cout << "id=" << id << "constructed" << endl;
+        cout << "id=" << id << " constructed" << endl;
     }
     ~Demo() {
-        cout << "id=" << id << "destructed" << endl;
+        cout << "id=" << id << " destructed" << endl;
     }
 };
 
