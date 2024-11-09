@@ -7,8 +7,11 @@
 编译环境：Visual Studio Community 2017
 
 2020/12/15 VSCode + Mingw64环境也OK
+
+2024/02/13 视频：清华大学 程序设计基础
+https://www.bilibili.com/video/BV1k14y1E75N?p=57&spm_id_from=pageDriver&vd_source=8bd7b24b38e3e12c558d839b352b32f4
 */
-#define _CRT_SECURE_NO_WARNINGS
+//#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -19,6 +22,7 @@ using namespace std;
 使用vector后其实不需要传入size，为了与数组兼容，故保留。
 */
 int binarySearch(vector<int> a, int size, int p) {
+	// [l,r] 闭区间上进行查找
 	int l = 0;
 	int r = size - 1;
 	int mid = 0;
